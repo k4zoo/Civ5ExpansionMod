@@ -1,0 +1,269 @@
+[
+
+{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"improvingTech": "Fertilizer",
+		"improvingTechStats": {"food": 1}
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"improvingTech": "Scientific Theory",
+		"improvingTechStats": {"production": 1}
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Desert Hill", "Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"improvingTech": "Chemistry",
+		"improvingTechStats": {"production": 1}
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"improvingTech": "Economics",
+		"improvingTechStats": {"gold": 1}
+	},
+	
+	// Resource-specific
+	{
+		"name": "Camp",
+		"resourceTerrainAllow": ["Forest"],
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"improvingTech": "Economics",
+		"improvingTechStats": {"gold": 1}
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Biology"
+	},
+	{
+		"name": "Pasture",
+		"resourceTerrainAllow": ["Desert Hill"],
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"improvingTech": "Fertilizer",
+		"improvingTechStats": {"food": 1}
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"improvingTech": "Fertilizer",
+		"improvingTechStats": {"food": 1}
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"improvingTech": "Chemistry",
+		"improvingTechStats": {"production": 1}
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"improvingTech": "Compass",
+		"improvingTechStats": {"gold": 1}
+	},
+	{
+		"name": "Archaeological Dig"
+	},
+
+	// Military improvement
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": ["Gives a defensive bonus of [50]%","Can be built outside your borders"]
+	},
+
+	// Transportation
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 4,
+		"techRequired": "Railroad",
+		"uniques": ["Can be built outside your borders"]
+	},
+	
+	// Removals
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"techRequired": "Mining",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"techRequired": "Bronze Working",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 8,
+		"terrainsCanBeBuiltOn": ["Fallout"],
+		"techRequired": "Atomic Theory",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"terrainsCanBeBuiltOn": ["Marsh"],
+		"techRequired": "Masonry",
+		"uniques": ["Can be built outside your borders"]
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"]
+	},
+	
+	// Great Person improvements
+	{
+		"name": "Academy",
+		"science": 8,
+		"uniques": ["Great Improvement"],
+		"improvingTech": "Scientific Theory",
+		"improvingTechStats": {"science": 2}
+	},
+	{
+		"name": "Landmark",
+		"culture": 6,
+		"uniques": ["Great Improvement"],
+	},
+	{
+		"name": "Manufactory",
+		"production": 4,
+		"improvingTech": "Chemistry",
+		"uniques": ["Great Improvement"],
+		"improvingTechStats": {"production": 1}
+	},
+	{
+		"name": "Customs house",
+		"gold": 4,
+		"improvingTech": "Economics",
+		"uniques": ["Great Improvement"],
+		"improvingTechStats": {"gold": 1}
+	},
+	{
+		"name": "Citadel",
+		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement"],
+		// TODO (G&K): adds every tile around it to your territory
+	},
+
+	//Civilization unique improvements
+	{
+		"name": "Moai",
+		"uniqueTo": "Polynesia",
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": ["[+1 Culture] for each adjacent [Moai]","Can only be built on Coastal tiles"],
+		"techRequired": "Construction",
+		"improvingTech": "Flight",
+		"improvingTechStats": {"gold": 1}
+	},
+	{
+		"name": "Chateau",
+		"uniqueTo": "France",
+		"gold": 1,
+		"culture": 2,
+		"turnsToBuild":7,
+		"techRequired": "Chivalry",
+		"improvingTech": "Flight",
+		"uniques": ["Gives a defensive bonus of [50]%"],
+		"improvingTechStats": {"culture":1,"gold":2},
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert"]
+	},
+	{
+		"name": "Brazilwood Camp",
+		"uniqueTo": "Brazil",
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Machinery",
+		"improvingTech": "Acoustics",
+		"improvingTechStats": {"culture":2},
+		"terrainsCanBeBuiltOn": ["Jungle"]
+	},
+	{
+		"name": "Polder",
+		"uniqueTo": "The Netherlands",
+		"food": 3,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"improvingTech": "Economics",
+		"improvingTechStats": {"production":1, "gold":2},
+		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"]
+	},
+	{
+		"name": "Kasbah",
+		"uniqueTo": "Morocco",
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Chivalry",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"uniques": ["Gives a defensive bonus of [50]%"]
+	},
+	{
+		"name": "Feitoria",
+		"uniqueTo": "Portugal",
+		"turnsToBuild": 7,
+		"gold": 3,
+		"happiness": 2,
+		"techRequired": "Navigation",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+		"uniques": [/*"Provides 1 extra copy of each improved luxury resource near this City"*/,"Gives a defensive bonus of [50]%","Can only be built on Coastal tiles"],
+	},
+	{
+		"name": "Terrace farm",
+		"uniqueTo": "Inca",
+		"terrainsCanBeBuiltOn": ["Hill","Desert Hill"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["[+1 Food] for each adjacent [Mountain]", "Cannot be built on bonus resource"],
+		"techRequired": "Construction",
+		"improvingTech": "Fertilizer",
+		"improvingTechStats": {"food":1}
+	},
+	{ "name": "Ancient ruins" },
+	{ "name": "City ruins" },
+	{ "name": "Barbarian encampment" }
+]
