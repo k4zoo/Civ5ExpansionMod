@@ -80,7 +80,7 @@
 	{
 		"name": "Jaguar",
 		"unitType": "Melee",
-		"uniqueTo": "Aztecs",
+		"uniqueTo": "Aztec",
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
