@@ -51,6 +51,7 @@
 		"food": 2,
 		"gold": 1,
 		"RGB": [ 200, 200, 255]
+		"uniques": ["Fresh water"]
 	},
 	{
 		"name": "Hill",
@@ -136,7 +137,8 @@
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert"]
+		"occursOn": ["Desert"],
+		"uniques": ["Fresh water"]
 	},
 	{
 		"name": "Flood plains",
