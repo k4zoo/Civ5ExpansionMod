@@ -187,7 +187,28 @@
         "name": "Library",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["+1 Science Per 2 Population"],
+        "uniques": ["[+1 Science] Per [2] Population in this city"],
+        "requiredTech": "Writing"
+    },
+    {
+        "name": "Paper Maker",
+        "replaces": "Library",
+        "uniqueTo": "China",
+        "hurryCostModifier": 25,
+        "gold": 2,
+        "uniques": ["[+1 Science] Per [2] Population in this city"],
+        "requiredTech": "Writing"
+    },
+    {
+        "name": "Royal Library", //modded
+        "replaces": "Library",
+        "uniqueTo": "Assyria",
+        "cost": 75,            
+        "specialistSlots": {"culture": 1},
+        "xpForNewUnits": 10,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": ["[+1 Science] Per [2] Population in this city","+10 XP for all military units produced in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -200,27 +221,6 @@
         "requiredTech": "Writing",
         "uniques": ["Free Technology"],
         "quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
-    },
-    {
-        "name": "Paper Maker",
-        "replaces": "Library",
-        "uniqueTo": "China",
-        "hurryCostModifier": 25,
-        "gold": 2,
-        "uniques": ["+1 Science Per 2 Population"],
-        "requiredTech": "Writing"
-    },
-    {
-        "name": "Royal Library", //modded
-        "replaces": "Library",
-        "uniqueTo": "Assyria",
-        "cost": 75,            
-        "specialistSlots": {"culture": 1},
-        "xpForNewUnits": 10,
-        "hurryCostModifier": 25,
-        "maintenance": 1,
-        "uniques": ["+10 XP for all military units produced in this city","+1 Science Per 2 Population"],
-        "requiredTech": "Writing"
     },
     {
         "name": "Circus", 
@@ -258,7 +258,7 @@
         "isWonder": true,
         "cost": 185,
         "greatPersonPoints": {"production": 1},
-        "uniques": ["+[10]% [Food] from every [Monument]","+[7]% Production when constructing [military units]"],
+        "uniques": ["+[10]% growth in all cities", "+[15]% Production when constructing [ranged units]"],
         "requiredTech": "Archery",
         "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
     },
@@ -487,7 +487,7 @@
     {
         "name": "National Epic", //modded
         "culture": 1,
-        "uniques": ["+[6]% great person generation in all cities"],
+        "uniques": ["+[25]% great person generation in this city"],
         "isNationalWonder": true,
         "requiredBuildingInAllCities": "Monument",
         "requiredTech": "Drama and Poetry"
@@ -525,7 +525,7 @@
         "isWonder": true,
         "greatPersonPoints": {"production": 1},
         "culture": 1,
-        "uniques": ["[+1 Food] from [Desert] tiles in this city","[+1 Production] from [Desert] tiles in this city","Must be next to [Desert]"],
+        "uniques": ["[+1 Food, +1 Production] from [Desert] tiles in this city","[+6 Culture] once [Archaeology] is discovered","Must be next to [Desert]"],
         "requiredTech": "Currency",
         "quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
     },
@@ -560,7 +560,7 @@
     {
         "name": "Garden", //modded
         "cost": 120,
-        "uniques": ["+[4]% great person generation in all cities","Must be next to river"],
+        "uniques": ["+[25]% great person generation in this city", "Must border a source of fresh water"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Theology"
@@ -571,7 +571,7 @@
         "uniqueTo": "Indonesia",
         "cost": 120,
         "culture": 2,
-        "uniques": ["+[4]% great person generation in all cities","May be built in all cities"],
+        "uniques": ["+[25]% great person generation in this city","May be built in all cities"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Theology"
@@ -719,6 +719,7 @@
         "culture": 2,
         "hurryCostModifier": 25,
         "requiredBuilding": "Walls",
+	"uniques": ["[+1 Gold] once [Flight] is discovered"],
         "requiredTech": "Chivalry"
     },
     {
@@ -952,7 +953,7 @@
         "hurryCostModifier": 25,
         "maintenance": 2,
         "percentStatBonus": {"production": 5},
-        "uniques": ["+[6]% great person generation in all cities","May be built in all cities"],
+        "uniques": ["+[25]% great person generation in this city","May be built in all cities"],
         "requiredTech": "Economics"     
     },
     {
@@ -985,7 +986,7 @@
         "requiredBuilding": "University",
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "uniques": ["+1 Science Per 2 Population"],
+        "uniques": ["[+1 Science] Per [2] Population in this city"],
         "requiredTech": "Scientific Theory"
     },
     {
@@ -1051,7 +1052,7 @@
         "requiredResource": "Aluminum",
         "hurryCostModifier": 25,
         "maintenance": 3,
-        "uniques": ["[+1 Production] from [Farm] tiles in this city","Must be next to river"],
+        "uniques": ["Must be next to river","[+1 Production] from [River] tiles in this city"],
         "requiredTech": "Electricity"     
     },
     
@@ -1227,7 +1228,7 @@
         "name": "SS Booster",
         "requiredResource": "Aluminum",
         "requiredTech": "Advanced Ballistics",
-        "uniques": ["Spaceship part"]
+        "uniques": ["Spaceship part","Cannot be purchased"]
     },
     {
         "name": "Apollo Program",
@@ -1268,18 +1269,18 @@
         "name": "SS Cockpit",
         "requiredResource": "Aluminum",
         "requiredTech": "Satellites",
-        "uniques": ["Spaceship part"]
+        "uniques": ["Spaceship part","Cannot be purchased"]
     },
     {
         "name": "SS Engine",
         "requiredResource": "Aluminum",
         "requiredTech": "Particle Physics",
-        "uniques": ["Spaceship part"]
+        "uniques": ["Spaceship part","Cannot be purchased"]
     },
     {
         "name": "SS Stasis Chamber",
         "requiredResource": "Aluminum",
         "requiredTech": "Nanotechnology",
-        "uniques": ["Spaceship part"]
+        "uniques": ["Spaceship part","Cannot be purchased"]
     }
 ]
