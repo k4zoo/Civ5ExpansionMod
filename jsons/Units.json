@@ -78,19 +78,19 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Jaguar", //modded
+		"name": "Jaguar",
 		"unitType": "Melee",
-		"uniqueTo": "Aztec",
+		"uniqueTo": "Aztecs",
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Metal Casting",
-		"uniques": ["+33% combat bonus in Forest/Jungle","Heals [50] damage if it kills a unit"],
+		"uniques": ["+[33]% combat bonus in [Forest]", "+[33]% combat bonus in [Jungle]", "Heals [25] damage if it kills a unit"],
 		"promotions": ["Woodsman"],
 		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"		
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Brute",
@@ -482,7 +482,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-		"uniques": ["+33% combat bonus in Forest/Jungle"],
+		"uniques": ["+[33]% combat bonus in [Forest]", "+[33]% combat bonus in [Jungle]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1157,7 +1157,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["+25% bonus in Snow, Tundra and Hills", "Double movement in Snow, Tundra and Hills"],
+		"uniques": ["+[25]% combat bonus in [Snow]", "+[25]% combat bonus in [Tundra]", "+[25]% combat bonus in [Hill]", "Double movement in Snow, Tundra and Hills"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
