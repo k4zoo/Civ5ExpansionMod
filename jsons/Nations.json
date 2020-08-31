@@ -677,7 +677,7 @@
 			"Leoben","Klosterneuburg","Leonding","Kapfenberg","Hallein","Bischofshofen","Saalbach","Lienz","Steyr",]	
 	},
 	{
-		"name": "Aztecs",
+		"name": "Aztec",
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
 		"startBias": ["Jungle"],
