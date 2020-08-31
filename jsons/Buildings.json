@@ -240,20 +240,20 @@
         "requiredTech": "The Wheel"     
     },
     {
-        "name": "Floating Gardens", //modded
+        "name": "Floating Gardens", 
         "replaces": "Water Mill",
         "uniqueTo": "Aztec",
         "cost": 75,
         "food": 2,
         "production": 1,
-        "uniques": ["[+2 Food] from [Lakes] tiles in this city", "Must be next to river"],
+        "uniques": ["[+2 Food] from [Lakes] tiles in this city", "Must border a source of fresh water"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "percentStatBonus": {"food": 15},
         "requiredTech": "The Wheel"     
     },
     {
-        "name": "Temple of Artemis", //modded
+        "name": "Temple of Artemis",
         "culture": 1,
         "isWonder": true,
         "cost": 185,
