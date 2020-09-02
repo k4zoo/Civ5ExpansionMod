@@ -242,7 +242,7 @@
     {
         "name": "Floating Gardens", 
         "replaces": "Water Mill",
-        "uniqueTo": "Aztec",
+        "uniqueTo": "Aztecs",
         "cost": 75,
         "food": 2,
         "production": 1,
