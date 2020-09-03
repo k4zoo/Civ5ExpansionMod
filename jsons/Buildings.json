@@ -18,6 +18,12 @@
         "cost": -1,
     },
     {
+        "name": "~limit2",
+        "requiredTech": "null",
+        "isNationalWonder": true,
+        "cost": -1,
+    },
+    {
         "name": "~dutch",
         "requiredTech": "null",
         "uniques": ["Provides 1 extra copy of each improved luxury resource near this City"],
@@ -49,7 +55,9 @@
     {"name":"~asy","uniqueTo":"Assyria","requiredTech":"null","cost":1,"uniques":["Treasures of Nineveh:"]},
     {
         "name": "Treasures of Nineveh",
+        "cannotBeBuiltWith": "~limit",
         "uniqueTo": "Assyria",
+        "providesFreeBuilding": "~limit",
         "isNationalWonder": "true",
         "cost": -1,
         "uniques": ["Can only be built in annexed cities","Free Technology"],
