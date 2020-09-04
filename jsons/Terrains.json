@@ -50,7 +50,7 @@
 		"type": "Water",
 		"food": 2,
 		"gold": 1,
-		"RGB": [ 200, 200, 255]
+		"RGB": [ 200, 200, 255],
 		"uniques": ["Fresh water"]
 	},
 	{
