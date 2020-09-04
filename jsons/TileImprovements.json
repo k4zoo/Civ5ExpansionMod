@@ -190,8 +190,7 @@
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
 		"improvingTech": "Flight",
-		"uniques": ["Gives a defensive bonus of [50]%"],
-		"improvingTechStats": {"culture":1,"gold":2},
+		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] once [Flight] is discovered"],
 		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert"]
 	},
 	{
@@ -200,8 +199,7 @@
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"improvingTech": "Acoustics",
-		"improvingTechStats": {"culture":2},
+		"uniques": ["[+2 Culture] once [Acoustics] is discovered"],
 		"terrainsCanBeBuiltOn": ["Jungle"]
 	},
 	{
@@ -210,8 +208,7 @@
 		"food": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"improvingTech": "Economics",
-		"improvingTechStats": {"production":1, "gold":2},
+		"uniques": ["[+1 Production, +2 Gold] once [Economics] is discovered"],
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"]
 	},
 	{
@@ -222,8 +219,8 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Chivalry",
-		"terrainsCanBeBuiltOn": ["Desert"],
 		"uniques": ["Gives a defensive bonus of [50]%"]
+		"terrainsCanBeBuiltOn": ["Desert"],
 	},
 	{
 		"name": "Feitoria",
