@@ -219,8 +219,8 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%"]
-		"terrainsCanBeBuiltOn": ["Desert"],
+		"uniques": ["Gives a defensive bonus of [50]%"],
+		"terrainsCanBeBuiltOn": ["Desert","Desert Hill","Flood plains"],
 	},
 	{
 		"name": "Feitoria",
