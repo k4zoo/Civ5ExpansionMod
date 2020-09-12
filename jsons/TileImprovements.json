@@ -189,7 +189,6 @@
 		"culture": 2,
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
-		"improvingTech": "Flight",
 		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] once [Flight] is discovered"],
 		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert"]
 	},
