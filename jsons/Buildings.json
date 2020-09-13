@@ -313,7 +313,7 @@
         "maintenance": 1,
         "uniques": ["All newly-trained [Melee] units in this city receive the [Buffalo Horns I] promotion"],
         "requiredTech": "Bronze Working"
-    },f
+    }
     {
         "name": "Colossus",
         "culture": 1,
