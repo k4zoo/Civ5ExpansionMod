@@ -20,7 +20,6 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"defenceBonus": -0.1,
 		"RGB": [109,139,53]
 	},
 	{
@@ -29,7 +28,6 @@
 		"food": 1,
 		"production": 1,
 		"movementCost": 1,
-		"defenceBonus": -0.1,
 		"RGB": [200,208,161]
 	},
 	{
@@ -110,7 +108,8 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
-		"occursOn": ["Grassland"]
+		"occursOn": ["Grassland"],
+		"uniques": ["Rare feature"]
 	},
 	{
 		"name": "Desert Hill",
@@ -119,7 +118,7 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": 0.35,
-		"occursOn": ["Desert"],
+		"occursOn": ["Desert","Rare feature"],
 		"rough": true
 	}
 	{
@@ -141,7 +140,7 @@
 		"unbuildable": true,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
-		"uniques": ["Fresh water"]
+		"uniques": ["Fresh water", "Rare feature"]
 	},
 	{
 		"name": "Flood plains",
@@ -149,7 +148,8 @@
 		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert"]
+		"occursOn": ["Desert"],
+		"uniques": ["Rare feature"]
 	},
 	{
 		"name": "Ice",
