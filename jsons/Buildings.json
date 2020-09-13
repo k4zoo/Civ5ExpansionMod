@@ -6,7 +6,7 @@
         "maintenance": 2,
         "cost": -1,
         "uniques": ["+1 production from all sea resources worked by the city",
-            "Connects trade routes over water","Can only be built in coastal cities"],
+            "Connects trade routes over water","Must be next to [Coast]"],
         "requiredTech": "null"
     },
     {
@@ -102,7 +102,7 @@
         "cannotBeBuiltWith": "Palace",
         "requiredTech": "Astronomy",
         "cost": -1,
-        "uniques": ["  After researching Astronomy, 3 Cities (except Capital) provide additional 'luxuries' which provide gold and happiness", "Can only be built in coastal cities"],       
+        "uniques": ["  After researching Astronomy, 3 Cities (except Capital) provide additional 'luxuries' which provide gold and happiness", "Must be next to [Coast]"],       
     },
     {
         "name": "Cloves", // Indonesian "luxury"
@@ -180,7 +180,7 @@
         "resourceBonusStats": {"production": 1},
         "maintenance": 1,
         "hurryCostModifier": 25,
-        "uniques": ["Must not be on plains"],
+        "uniques": ["Must not be on [Plains]"],
         "requiredTech": "Calendar"
     },
     {
@@ -242,7 +242,7 @@
         "cost": 75,
         "food": 2,
         "production": 1,
-        "uniques": ["Must be next to river"],
+        "uniques": ["Must be on [River]"],
         "hurryCostModifier": 25,
         "maintenance": 2,
         "requiredTech": "The Wheel"     
@@ -254,7 +254,7 @@
         "cost": 75,
         "food": 2,
         "production": 1,
-        "uniques": ["[+2 Food] from [Lakes] tiles in this city", "Must border a source of fresh water"],
+        "uniques": ["[+2 Food] from [Lakes] tiles in this city", "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "percentStatBonus": {"food": 15},
@@ -313,14 +313,14 @@
         "maintenance": 1,
         "uniques": ["All newly-trained [Melee] units in this city receive the [Buffalo Horns I] promotion"],
         "requiredTech": "Bronze Working"
-    },
+    },f
     {
         "name": "Colossus",
         "culture": 1,
         "gold": 5,
         "greatPersonPoints": {"gold": 1},
         "isWonder": true,
-        "uniques": ["Can only be built in coastal cities","[+1 Gold] from [Water] tiles in this city"],
+        "uniques": ["Must be next to [Coast]","[+1 Gold] from [Water] tiles in this city"],
         "requiredTech": "Iron Working",
         "quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
     },
@@ -369,7 +369,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "resourceBonusStats": {"food": 1},
-        "uniques": ["Can only be built in coastal cities","[+1 Food] from [Coast] tiles in this city", "[+1 Food] from [Ocean] tiles in this city"],
+        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles in this city", "[+1 Food] from [Ocean] tiles in this city"],
         "requiredTech": "Optics"
     },
     {
@@ -378,7 +378,7 @@
         "greatPersonPoints": {"gold": 1},
         "isWonder": true,
         "providesFreeBuilding":  "Lighthouse",
-        "uniques": ["Can only be built in coastal cities", "All military naval units receive +1 movement and +1 sight"],
+        "uniques": ["Must be next to [Coast]", "All military naval units receive +1 movement and +1 sight"],
         "requiredTech": "Optics",
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
@@ -566,9 +566,9 @@
         "requiredTech": "Theology"
     },
     {
-        "name": "Garden", //modded
+        "name": "Garden",
         "cost": 120,
-        "uniques": ["+[25]% great person generation in this city", "Must border a source of fresh water"],
+        "uniques": ["+[25]% great person generation in this city", "Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Theology"
@@ -634,7 +634,7 @@
         "greatPersonPoints": {"gold": 1},
         "culture": 1,
         "isWonder": true,
-        "uniques": ["Gold from all trade routes +25%","Must have an owned mountain within 2 tiles"],
+        "uniques": ["Gold from all trade routes +25%","Must have an owned [Mountain] within [2] tiles"],
         "requiredTech": "Guilds",
         "quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.'  - Hiram Bingham"
     },
@@ -674,7 +674,7 @@
         "maintenance": 2,
         "hurryCostModifier": 25,
         "uniques": ["[+1 Production] from [Water resource] tiles in this city",
-            "Connects trade routes over water","Can only be built in coastal cities"],
+            "Connects trade routes over water","Must be next to [Coast]"],
         "requiredTech": "Compass"
     },
     {
@@ -919,8 +919,8 @@
         "hurryCostModifier": 25,
         "maintenance": 2,
         "requiredBuilding": "Harbor",
-		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
-			"Can only be built in coastal cities","+[15]% production when building [naval units] in this city"],
+	"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
+		"Must be next to [Coast]","+[15]% production when building [naval units] in this city"],
         "requiredTech": "Navigation"
     },
     {
@@ -948,7 +948,7 @@
         "specialistSlots": {"production": 1},
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "uniques": ["+[5]% Production when constructing [Buildings]","Must not be on hill"],
+        "uniques": ["+[10]% production when building [Buildings] in this city","Must not be on [Hill]"],
         "requiredTech": "Economics"
     },
     {
@@ -1056,11 +1056,10 @@
     {
         "name": "Hydro Plant", //modded
         "cost": 360,
-        "uniques": ["Must be next to river"],
         "requiredResource": "Aluminum",
         "hurryCostModifier": 25,
         "maintenance": 3,
-        "uniques": ["Must be next to river","[+1 Production] from [River] tiles in this city"],
+        "uniques": ["Must be on [River]","[+1 Production] from [River] tiles in this city"],
         "requiredTech": "Electricity"     
     },
     
@@ -1162,7 +1161,7 @@
         "greatPersonPoints": {"gold": 1},
         "isWonder": true,
         "uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
-            "Must have an owned mountain within 2 tiles"],
+            "Must have an owned [Mountain] within [2] tiles"],
         "requiredTech": "Railroad",
         "quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.'  - King Ludwig II of Bavaria"
     },
@@ -1200,14 +1199,14 @@
         "maintenance": 3,
         "cannotBeBuiltWith": "Nuclear Plant",
         "requiredTech": "Ecology",
-        "uniques": ["Must be next to desert"]
+        "uniques": ["Must be next to [Desert]"]
     },
     {
         "name": "Sydney Opera House",
         "isWonder": true,
         "greatPersonPoints": {"culture": 2},
         "percentStatBonus": {"culture": 50},
-        "uniques": ["Free Social Policy","Can only be built in coastal cities"],
+        "uniques": ["Free Social Policy","Must be next to [Coast]"],
         "requiredTech": "Ecology",
         "quote": "'Those who lose dreaming are lost.'  - Australian Aboriginal saying"
     },
