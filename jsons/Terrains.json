@@ -148,8 +148,7 @@
 		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert"],
-		"uniques": ["Rare feature"]
+		"occursOn": ["Desert"]
 	},
 	{
 		"name": "Ice",
@@ -164,7 +163,8 @@
 		"movementCost": 1,
 		"food": 1,
 		"production": 1,
-		"occursOn": ["Coast"]
+		"occursOn": ["Coast"],
+		"uniques": ["Rare feature"]
 	},
  
 	// Natural Wonders
