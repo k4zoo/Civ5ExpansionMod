@@ -74,7 +74,8 @@
 		"uniques": ["[+1 Gold] once [Compass] is discovered"]
 	},
 	{
-		"name": "Archaeological Dig"
+		"name": "Archaeological Dig",
+		"techRequired": "null"
 	},
 
 	// Military improvement
