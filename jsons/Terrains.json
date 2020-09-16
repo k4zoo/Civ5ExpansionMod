@@ -117,9 +117,10 @@
 		"production": 2,
 		"movementCost": 2,
 		"unbuildable": true,
-		"defenceBonus": 0.35,
-		"occursOn": ["Desert","Rare feature"],
-		"rough": true
+		"defenceBonus": 0.25,
+		"occursOn": ["Desert"],
+		"rough": true,
+		"uniques": ["Rare feature"]
 	}
 	{
 		"name": "Fallout",
