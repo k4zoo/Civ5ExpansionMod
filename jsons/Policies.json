@@ -109,7 +109,7 @@
 			{
 				"name": "Warrior Code",
 				"effect": "+20% production when training melee units",
-				"uniques":["+[20]% Production when constructing [melee units]"],
+				"uniques":["+[15]% Production when constructing [melee units]","[Great General] is earned [50]% faster","Free [Great General] appears"],
 				"row": 1,
 				"column": 2
 			},
@@ -221,14 +221,15 @@
 			{
 				"name": "Naval Tradition",
 				"effect": "+1 happiness for every Lighthouse, Harbor, and Seaport",
-				"uniques": ["[+1 Happiness] from every [Lighthouse]","[+1 Happiness] from every [Harbor]","[+1 Happiness] from every [Harbör]","[+1 Happiness] from every [Seaport]"],
+				"uniques": ["[+1 Happiness] from every [Lighthouse]","[+1 Happiness] from every [Harbor]","[+1 Happiness] from every [Seaport]"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Merchant Navy",
 				"effect": "+1 Gold for each Harbor, Seaport, or Lighthouse. +4 Production and +4 Culture in the city with the East India Company.",
-				"uniques": ["[+1 Gold] from every [Lighthouse]","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Harbör]","[+1 Gold] from every [Seaport]","[+4 Production] from every [East India Company]","[+4 Culture] from every [East India Company]"],
+				"uniques": ["[+1 Gold] from every [Lighthouse]","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Seaport]",
+					"[+4 Production, +4 Culture] from every [East India Company]"],
 				"requires": ["Maritime Infrastructure","Naval Tradition"],
 				"row": 2,
 				"column": 2
