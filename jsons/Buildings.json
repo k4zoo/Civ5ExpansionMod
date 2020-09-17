@@ -1,15 +1,6 @@
 [
     // Uniques
     {
-        "name": "Harbör",
-        "hurryCostModifier": 0,
-        "maintenance": 2,
-        "cost": -1,
-        "uniques": ["+1 production from all sea resources worked by the city",
-            "Connects trade routes over water","Must be next to [Coast]"],
-        "requiredTech": "null"
-    },
-    {
         "name": "~limit",
         "happiness": 4,
         "gold": 2,
@@ -79,7 +70,7 @@
     {
         "name": "Phoenician Heritage",
         "uniqueTo": "Carthage",
-        "providesFreeBuilding": "Harbör",
+        "providesFreeBuilding": "Harbor",
         "cost": -1,
         "uniques": ["Phoenician Heritage:
   All coastal Cities get a free Harbor","Can only be built in coastal cities"],
