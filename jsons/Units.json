@@ -1292,7 +1292,7 @@
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["+20% bonus outside friendly territory","Bonus vs units in open terrain 50%","Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"uniques": ["+20% bonus outside friendly territory","+[50]% combat bonus in [Desert]","Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"	
 	},
