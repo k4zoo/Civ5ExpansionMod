@@ -26,7 +26,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 250,
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Can construct [Customs house]","Double movement in coast"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Can construct [Customs house]","Double movement in coast"],
 		"hurryCostModifier": 20
 	},
 	{
