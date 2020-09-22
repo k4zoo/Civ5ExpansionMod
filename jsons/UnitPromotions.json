@@ -442,10 +442,20 @@
 	
 	// Uniques
 	{
-		"name": "Morale", // only for Heroic Epic
-		"prerequisites": ["null"],
-		"effect": "Bonus vs land units 15%",
-		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
+		"name": "Morale", // Heroic Epic
+		"effect": "+[15]% Combat Strength"
+	},
+	{
+		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
+		"effect": "[Great General] is earned [50]% faster"
+	},
+	{
+		"name": "Great Generals II", // only for Samurai and subsequent upgrades
+		"effect": "[Great General] is earned [100]% faster"
+	},
+	{
+		"name": "Quick Study", // only for Keshik and subsequent upgrades
+		"effect": "[50]% Bonus XP gain"
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
