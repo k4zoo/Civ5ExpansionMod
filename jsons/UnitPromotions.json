@@ -468,7 +468,11 @@
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
 		"effect": "May withdraw before melee ([133%])"
-	}
+	},
+	{
+		"name": "Feared Elephant", // only for Maori Warrior and subsequent upgrades
+		"effect": "-10% combat strength for adjacent enemy units"
+	},
 	{
 		"name": "Heavy Charge", // only for Winged Hussar and subsequent upgrades
 		"effect": "Bonus as Attacker [25]%",
