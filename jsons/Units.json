@@ -1074,7 +1074,7 @@
 		"movement": 4,
 		"cost": 200,
 		"requiredTech": "Archaeology",
-		"uniques": ["Constructing Archaeological Dig without Antiquity Site provides no yield","Can construct [Archaeological Dig]"],
+		"uniques": ["Requires [University]","Cannot be purchased"],
 		"hurryCostModifier": 1000,
 	},
 	{
