@@ -501,7 +501,7 @@
         "uniques": ["+[25]% great person generation in this city", "Cost increases by [30] per owned city"],
         "isNationalWonder": true,
         "requiredBuildingInAllCities": "Monument",
-        "requiredTech": "Philosophy"
+        "requiredTech": "Drama and Poetry"
     },
     {
         "name": "Market",
