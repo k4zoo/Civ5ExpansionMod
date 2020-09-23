@@ -325,7 +325,7 @@
 	
 	{
 		"name": "Sortie",
-		"prerequisites": ["Interception II", "Dogfighting II"],
+		"prerequisites": ["Interception II", "Dogfighting II"]
 		"effect": "1 extra Interception may be made per turn",
 		"unitTypes": ["Fighter"]
 	},
@@ -442,10 +442,28 @@
 	
 	// Uniques
 	{
-		"name": "Morale", // only for Heroic Epic
-		"prerequisites": ["null"],
-		"effect": "Bonus vs land units 15%",
-		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
+		"name": "Morale", // Heroic Epic
+		"effect": "+[15]% Combat Strength"
+	},
+	{
+		"name": "Amphibious", // Marine and Berserker
+		"effect": "Amphibious"
+	},
+	{
+		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
+		"effect": "[Great General] is earned [50]% faster"
+	},
+	{
+		"name": "Great Generals II", // only for Samurai and subsequent upgrades
+		"effect": "[Great General] is earned [100]% faster"
+	},
+	{
+		"name": "Quick Study", // only for Keshik and subsequent upgrades
+		"effect": "[50]% Bonus XP gain"
+	},
+	{
+		"name": "Air Recon", // Air units
+		"effect": "6 tiles in every direction always visible"
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
@@ -458,7 +476,19 @@
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
 		"effect": "May withdraw before melee ([133%])"
-	}
+	},
+	{
+		"name": "Homeland Guardian", // only for Berber Cavalry and subsequent upgrades
+		"effect": "+20% bonus outside friendly territory"
+	},
+	{
+		"name": "Desert Warrior", // only for Berber Cavalry and subsequent upgrades
+		"effect": "+[50]% combat bonus in [Desert]"
+	},
+	{
+		"name": "Feared Elephant", // only for Maori Warrior and subsequent upgrades
+		"effect": "-10% combat strength for adjacent enemy units"
+	},
 	{
 		"name": "Heavy Charge", // only for Winged Hussar and subsequent upgrades
 		"effect": "Bonus as Attacker [25]%",
