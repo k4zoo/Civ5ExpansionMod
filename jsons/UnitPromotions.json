@@ -470,6 +470,14 @@
 		"effect": "May withdraw before melee ([133%])"
 	},
 	{
+		"name": "Homeland Guardian", // only for Berber Cavalry and subsequent upgrades
+		"effect": "+20% bonus outside friendly territory"
+	},
+	{
+		"name": "Desert Warrior", // only for Berber Cavalry and subsequent upgrades
+		"effect": "+[50]% combat bonus in [Desert]"
+	},
+	{
 		"name": "Feared Elephant", // only for Maori Warrior and subsequent upgrades
 		"effect": "-10% combat strength for adjacent enemy units"
 	},
