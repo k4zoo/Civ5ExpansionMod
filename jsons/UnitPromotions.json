@@ -446,6 +446,10 @@
 		"effect": "+[15]% Combat Strength"
 	},
 	{
+		"name": "Amphibious", // Marine and Berserker
+		"effect": "Amphibious"
+	},
+	{
 		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
 		"effect": "[Great General] is earned [50]% faster"
 	},
