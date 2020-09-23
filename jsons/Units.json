@@ -4,10 +4,17 @@
 
 	/* Ancient Era */
 	{
+		"name": "Missionary", //modde
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 200,
+		"requiredTech": "null",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"],
+	},
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"hurryCostModifier": 20,
 		"uniques": ["Can build improvements on tiles"],
 		"cost": 70
 	},
@@ -27,7 +34,6 @@
 		"movement": 2,
 		"cost": 250,
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Can construct [Customs house]","Double movement in coast"],
-		"hurryCostModifier": 20
 	},
 	{
 		"name": "Scout",
@@ -58,7 +64,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"hurryCostModifier": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -71,7 +76,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"hurryCostModifier": 20,
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
@@ -85,7 +89,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"hurryCostModifier": 20,
 		"obsoleteTech": "Metal Casting",
 		"uniques": ["+[33]% combat bonus in [Forest]", "+[33]% combat bonus in [Jungle]", "Heals [25] damage if it kills a unit"],
 		"promotions": ["Woodsman"],
@@ -111,7 +114,6 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"hurryCostModifier": 20,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
@@ -124,7 +126,6 @@
 		"strength": 7,
 		"rangedStrength": 9,
 		"cost": 40,
-		"hurryCostModifier": 20,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"replaces": "Archer",
@@ -141,7 +142,6 @@
 		"strength": 4,
 		"rangedStrength": 7,
 		"cost": 40,
-		"hurryCostModifier": 20,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
@@ -157,7 +157,6 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 36,
-		"hurryCostModifier": 20,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
@@ -169,8 +168,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles until Astronomy","May create improvements on water resources"],
-		"hurryCostModifier": 20
+		"uniques": ["Cannot enter ocean tiles until Astronomy","May create improvements on water resources"]
 	},
 	{
 		"name": "Trireme",
@@ -179,10 +177,9 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles",],
+		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -194,7 +191,6 @@
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Trireme",
-		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -207,10 +203,9 @@
 		"rangedStrength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Bonus vs water units 45%"],
+		"uniques": ["Cannot enter ocean tiles","Bonus vs water units 45%"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -222,10 +217,9 @@
 		"strength": 13,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles",],
+		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -240,7 +234,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus","Rough terrain penalty"],
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -256,7 +249,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus","Rough terrain penalty"],
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -272,7 +264,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -285,7 +276,6 @@
 		"rangedStrength": 9,
 		"range": 1,
 		"cost": 56,
-		"hurryCostModifier": 20,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"attackSound": "nonmetalhit"
@@ -304,7 +294,6 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"	
 	},
 	{
@@ -317,7 +306,6 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["Bonus vs Mounted 50%"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -332,7 +320,6 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["Bonus vs Mounted 50%"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -347,23 +334,21 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["Bonus vs Mounted 50%","+10 HP when healing"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
-		"name":"Pictish Warrior", //modded
-		"unitType":"Melee",
-		"uniqueTo":"Celts",
-		"replaces":"Spearman",
-		"movement":2,
-		"strength":11,
-		"cost":56,
-		"hurryCostModifier":20,
-		"requiredTech":"Bronze Working",
-		"obsoleteTech":"Civil Service",
-		"upgradesTo":"Pikeman",
+		"name": "Pictish Warrior", //modded
+		"unitType": "Melee",
+		"uniqueTo": "Celts",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
 		"uniques":["+20% bonus outside friendly territory","No movement cost to pillage"],
-		"attackSound":"metalhit"
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Battering Ram", //modded
@@ -376,9 +361,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["Limited Visibility", "Bonus vs City 300%"],
+		"uniques": ["Limited Visibility","Bonus vs City 300%"],
 		"promotions": ["Cover I"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	
@@ -390,11 +374,11 @@
 		"strength": 7,
 		"rangedStrength": 8,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
-		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
 	{
@@ -406,28 +390,28 @@
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
-		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},	
 	{
-		"name":"Siege Tower", //modded
-		"unitType":"Melee",
-		"uniqueTo":"Assyria",
-		"replaces":"Catapult",
-		"movement":2,
-		"strength":12,
-		"cost":75,
-		"hurryCostModifier":20,
-		"requiredTech":"Mathematics",
-		"obsoleteTech":"Civil Service",
-		"upgradesTo":"Trebuchet",
+		"name": "Siege Tower", //modded
+		"unitType": "Melee",
+		"uniqueTo": "Assyria",
+		"replaces": "Catapult",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75, 
+		"hurryCostModifier": 20,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Trebuchet",
 		"uniques": ["Bonus vs City 200%","No defensive terrain bonus"],
 		"promotions": ["Cover I"],
-		"attackSound":"metalhit"
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Composite Bowman", //modded
@@ -436,7 +420,6 @@
 		"strength": 7,
 		"rangedStrength": 11,
 		"cost": 75,
-		"hurryCostModifier": 20,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
@@ -448,11 +431,11 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -463,11 +446,11 @@
 		"movement": 2,
 		"strength": 17,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"requiredResource": "Iron",
 		"uniques": ["Can construct roads"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -478,11 +461,11 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
-		"hurryCostModifier": 20,
-		"uniques": ["+[33]% combat bonus in [Forest]", "+[33]% combat bonus in [Jungle]"],
+		"uniques": ["+[33]% combat bonus in [Forest]","+[33]% combat bonus in [Jungle]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -493,12 +476,12 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"promotions": ["Mystic Blade"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -507,12 +490,12 @@
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"attackSound": "horse"
 	},
 	{
@@ -523,12 +506,13 @@
 		"movement": 5,
 		"strength": 14,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"promotions": ["Great Generals I"],
 		"attackSound": "horse"
 	},
 	{
@@ -539,12 +523,12 @@
 		"movement": 3,
 		"strength": 15,
 		"cost": 75,
+		"hurryCostModifier": 20,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["Can move after attacking","Penalty vs City 33%"],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"		
 	},
 	{
@@ -555,11 +539,12 @@
 		"movement": 3,
 		"strength": 14,
 		"cost": 100,
+		"hurryCostModifier": 20,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No Defensive Terrain Bonuses","Penalty vs City 33%", "Combat very likely to create Great Generals","-10% combat strength for adjacent enemy units"],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","No Defensive Terrain Bonuses","Penalty vs City 33%"],
+		"promotions": ["Feared Elephant","Great Generals II"],
 		"attackSound": "horse"		
 	},
 	
@@ -575,7 +560,6 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -591,7 +575,6 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Logistics"],
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -608,7 +591,6 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Extended Range"],
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -621,8 +603,8 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
-		"hurryCostModifier": 20,
+		"uniques": ["Bonus vs City 200%","No defensive terrain bonus",
+			"Must set up to ranged attack","Limited Visibility"],
 		"attackSound": "throw"
 	},
 	{
@@ -638,7 +620,6 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
-		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
 	{
@@ -651,7 +632,6 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -663,12 +643,11 @@
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
+		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Combat very likely to create Great Generals","May create improvements on water resources"],
-		"promotions": ["Shock I"],
-		"hurryCostModifier": 20,
+		"uniques": ["May create improvements on water resources"],
+		"promotions": ["Shock I","Great Generals II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -679,13 +658,13 @@
 		"movement": 3,
 		"strength": 21,
 		"cost": 120,
+		"hurryCostModifier": 20,
 		"requiredTech": "Metal Casting",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Iron",
 		"uniques": ["Amphibious"],
 		"promotions": ["Shock I"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -698,7 +677,6 @@
 		"uniques": ["Bonus vs Mounted 50%"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 	},
 	{
@@ -710,10 +688,9 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["Bonus vs Mounted 50%", "Can move immediately once bought" ],
+		"uniques": ["Bonus vs Mounted 50%","Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -729,7 +706,6 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["Spear Throw"],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -743,7 +719,6 @@
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -759,7 +734,6 @@
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -772,8 +746,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"attackSound": "horse"
 	},
 	{
@@ -790,7 +763,6 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -806,7 +778,6 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city", "+2 Visibility Range", "Defense bonus when embarked"],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -821,7 +792,6 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Bonus vs Mounted 50%","Penalty vs City 33%"],
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -837,7 +807,6 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -853,8 +822,8 @@
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Combat very likely to create Great Generals","50% Bonus XP gain"],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Great Generals I","Quick Study"],
 		"attackSound": "arrow"
 	},
 	
@@ -866,11 +835,11 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
+		"hurryCostModifier": 30,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["+1 Visibility Range","May withdraw before melee ([50]%)"],
-		"hurryCostModifier": 20
 	},
 	{
 		"name": "Turtle Ship",
@@ -880,11 +849,11 @@
 		"movement": 4,
 		"strength": 36,
 		"cost": 120,
+		"hurryCostModifier": 30,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["Cannot enter ocean tiles"],
-		"hurryCostModifier": 20
 	},
 	{
 		"name": "Nau", //modded
@@ -894,11 +863,11 @@
 		"movement": 5,
 		"strength": 20,
 		"cost": 120,
+		"hurryCostModifier": 30,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["+1 Visibility Range","May withdraw before melee","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence"],
-		"hurryCostModifier": 20
 	},
 	{
 		"name": "Cannon",
@@ -911,7 +880,6 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
-		"hurryCostModifier": 20
 	},
 	{
 		"name": "Musketman",
@@ -922,7 +890,6 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -936,7 +903,6 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -950,8 +916,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"hurryCostModifier": 20,
-		"uniques": ["Heals [50] damage if it kills a unit", "Bonus as Attacker [25]%"],
+		"uniques": ["Heals [50] damage if it kills a unit","Bonus as Attacker [25]%"],
 		"attackSound": "shot"
 	},
 	{
@@ -967,7 +932,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["Ignores terrain cost"],
 		"promotions": ["Drill I"],
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -982,19 +946,17 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["Bonus vs Mounted 50%"],
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
 		"name": "Privateer", //modded
 		"unitType": "WaterMelee",
-		"movement":5,
-		"strength":25,
-		"cost":150,
-		"hurryCostModifier":20,
-		"requiredTech":"Navigation",
-		"upgradesTo":"Destroyer",
-		"promotions":["Coastal Raider I"],
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1002,32 +964,14 @@
 		"replaces": "Privateer",
 		"unitType": "WaterMelee",
 		"uniqueTo": "The Netherlands",
-		"movement":5,
-		"strength":25,
-		"cost":150,
-		"hurryCostModifier":20,
-		"requiredTech":"Navigation",
-		"upgradesTo":"Destroyer",
-		"promotions":["Coastal Raider I", "Coastal Raider II"],
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I","Coastal Raider II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Winged Hussar", //modded
-		"replaces": "Lancer",
-		"uniqueTo": "Poland",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 28,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"hurryCostModifier": 20,
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
-		"promotions": ["Shock I","Formation I", "Heavy Charge"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
 	},
 	{
 		"name": "Frigate",
@@ -1036,11 +980,11 @@
 		"strength": 25,
 		"rangedStrength": 28,
 		"cost": 185,
+		"hurryCostModifier": 20,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20
+		"upgradesTo": "Battleship"
 	},
 	{
 		"name": "Ship of the Line",
@@ -1051,12 +995,12 @@
 		"strength": 30,
 		"rangedStrength": 35,
 		"cost": 185,
+		"hurryCostModifier": 20,
 		"requiredResource": "Iron",
 		"uniques": ["+1 Visibility Range"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20
+		"upgradesTo": "Battleship"
 	},
 	{
 		"name": "Lancer",
@@ -1066,7 +1010,6 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"hurryCostModifier": 20,
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
@@ -1083,10 +1026,25 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"hurryCostModifier": 20,
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%",
-			"+1 Visibility Range", "No movement cost to pillage"],
+			"+1 Visibility Range","No movement cost to pillage"],
 		"promotions": ["Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Winged Hussar", //modded
+		"replaces": "Lancer",
+		"uniqueTo": "Poland",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 28,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"promotions": ["Shock I","Formation I","Heavy Charge"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1097,12 +1055,11 @@
 		"unitType": "Mounted",
 		"uniqueTo": "Sweden",
 		"movement": 4,
-		"strength": 25,
+		"strength": 29,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"hurryCostModifier": 20,
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%", "Combat very likely to create Great Generals"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1131,7 +1088,6 @@
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
-		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
 	{
@@ -1143,7 +1099,6 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},	
 	{
@@ -1157,8 +1112,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["+[25]% combat bonus in [Snow]", "+[25]% combat bonus in [Tundra]", "+[25]% combat bonus in [Hill]", "Double movement in Snow, Tundra and Hills"],
-		"hurryCostModifier": 20,
+		"uniques": ["+[25]% combat bonus in [Snow]","+[25]% combat bonus in [Tundra]","+[25]% combat bonus in [Hill]","Double movement in Snow, Tundra and Hills"],
 		"attackSound": "shot"
 	},
 	{
@@ -1173,7 +1127,6 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["March"],
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -1189,7 +1142,6 @@
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Drill I"],
 		"uniques": ["+20% bonus outside friendly territory"],
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -1200,8 +1152,7 @@
 		"rangedStrength": 40,
 		"cost": 375,
 		"requiredTech": "Electronics",
-        "uniques": ["Can carry 2 aircraft"],
-		"hurryCostModifier": 20
+        "uniques": ["Can carry 2 aircraft"]
 	},
 	{
 		"name": "Triplane",
@@ -1216,7 +1167,6 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"hurryCostModifier": 20,
 		"uniques": ["[50]% chance to intercept air attacks","Bonus vs Bomber 150%",
 			"6 tiles in every direction always visible"],
 		"attackSound": "shot"
@@ -1233,7 +1183,6 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -1246,8 +1195,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"attackSound": "horse"
 	},
 	{
@@ -1259,26 +1207,24 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%","Bonus vs wounded units 33%" ],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
-		"name":"Hussar", //modded
-		"unitType":"Mounted",
-		"uniqueTo":"Austria",
-		"replaces":"Cavalry",
-		"movement":5,
-		"strength":34,
-		"cost":225,
-		"hurryCostModifier":20,
-		"requiredTech":"Military Science",
+		"name": "Hussar", //modded
+		"unitType": "Mounted",
+		"uniqueTo": "Austria",
+		"replaces": "Cavalry",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
-		"upgradesTo":"Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%","Bonus vs wounded units 33%"],
-		"promotions": ["Scouting I"],
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%","+1 Visibility Range","Bonus vs wounded units 33%"],
 		"attackSound":"horse"
 	},
 	{
@@ -1292,8 +1238,8 @@
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["+20% bonus outside friendly territory","+[50]% combat bonus in [Desert]","Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
+		"promotions": ["Homeland Guardian","Desert Warrior"],
 		"attackSound": "horse"	
 	},
 	{
@@ -1308,7 +1254,6 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -1321,9 +1266,8 @@
 		"cost": 320,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus",
-			"Must set up to ranged attack","Limited Visibility","Ranged attacks may be performed over obstacles"],
-		"hurryCostModifier": 20
+		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack",
+			"Limited Visibility","Ranged attacks may be performed over obstacles"]
 	},
 	{
 		"name": "Ironclad",
@@ -1335,8 +1279,7 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Bonus vs City 33%","Double movement in coast"],
-		"hurryCostModifier": 20
+		"uniques": ["Bonus vs City 33%","Double movement in coast"]
 	},
 
 	// Modern era
@@ -1352,9 +1295,8 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
-		"hurryCostModifier": 20,
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%",
-			"6 tiles in every direction always visible"],
+		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%"],
+		"promotions": ["Air Recon"],
 		"attackSound": "shot"
 	},
 	{
@@ -1370,9 +1312,8 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Fighter",
-		"hurryCostModifier": 20,
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%","Bonus vs Fighter 33%",
-			"6 tiles in every direction always visible"],
+		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%","Bonus vs Fighter 33%"],
+		"promotions": ["Air Recon"],
 		"attackSound": "shot"
 	},
 	{
@@ -1386,7 +1327,6 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Stealth Bomber",
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -1402,8 +1342,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Stealth Bomber",
-		"promotions": ["Evasion", "Siege I"],
-		"hurryCostModifier": 20,
+		"promotions": ["Evasion","Siege I"],
 		"attackSound": "shot"
 	},
 	{
@@ -1416,8 +1355,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20
+		"uniques": ["Can move after attacking","No defensive terrain bonus"]
 	},
 	{
 		"name": "Destroyer",
@@ -1427,8 +1365,7 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["Can attack submarines", "[40]% chance to intercept air attacks", "May withdraw before melee ([50]%)"],
-		"hurryCostModifier": 20
+		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks","May withdraw before melee ([50]%)"]
 	},
 	{
 		"name": "Battleship",
@@ -1440,8 +1377,7 @@
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
-		"uniques": ["Ranged attacks may be performed over obstacles", "Bonus vs City 30%"],
-		"hurryCostModifier": 20
+		"uniques": ["Ranged attacks may be performed over obstacles","Bonus vs WaterSubmarine 100%","Bonus vs City 30%"]
 	},
 	{
 		"name": "Submarine",
@@ -1453,8 +1389,7 @@
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"obsoleteTech": "Telecommunications",
-		"uniques": ["Bonus as Attacker [75]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
-		"hurryCostModifier": 20
+		"uniques": ["Bonus as Attacker [75]%","Invisible to others","Can only attack water","Can attack submarines","Can enter ice tiles"]
 	},
 	{
 		"name": "Great War Infantry",
@@ -1463,7 +1398,6 @@
 		"strength": 50,
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
-		"hurryCostModifier": 20,
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
@@ -1477,12 +1411,22 @@
 		"strength": 50,
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
-		"hurryCostModifier": 20,
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": ["+20% bonus outside friendly territory"],
 		"attackSound": "shot"
 	},
+	/*{
+		"name": "Paratrooper",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"upgradesTo": "XCOM Squad",
+		"uniques": ["May Paradrop"],
+		"attackSound": "shot"
+	},*/
 
 	// Information Era
 
@@ -1497,7 +1441,6 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Nuclear Fission",
-		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
 	{
@@ -1511,7 +1454,6 @@
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 150%"],
-		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
 	{
@@ -1524,8 +1466,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20
+		"uniques": ["Can move after attacking","No defensive terrain bonus"]
 	},
 	{
 		"name": "Panzer",
@@ -1538,8 +1479,7 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20
+		"uniques": ["Can move after attacking","No defensive terrain bonus"]
 	},
 	{
 		"name": "Anti-Tank Gun",
@@ -1549,8 +1489,7 @@
 		"cost": 300,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["Bonus vs Armor 100%"],
-		"hurryCostModifier": 20
+		"uniques": ["Bonus vs Armor 100%"]
 	},
 	{
 		"name": "Rocket Artillery",
@@ -1563,8 +1502,7 @@
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
 		"uniques": ["Bonus vs City 200%","No defensive terrain bonus",
-			"Limited Visibility","Ranged attacks may be performed over obstacles"],
-		"hurryCostModifier": 20
+			"Limited Visibility","Ranged attacks may be performed over obstacles"]
 	},
 	{
 		"name": "Nuclear Missile",
@@ -1576,8 +1514,7 @@
 		"cost": 1000,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Uranium",
-		"uniques": ["Requires Manhattan Project"],
-		"hurryCostModifier": 20
+		"uniques": ["Requires [Manhattan Project]"]
 	},
 	{
 		"name": "Marine", //modded
@@ -1586,8 +1523,8 @@
 		"strength": 65,
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["Amphibious", "Defense bonus when embarked", "+1 Visibility Range"],
-		"hurryCostModifier": 20,
+		"uniques": ["Defense bonus when embarked","+1 Visibility Range"],
+		"promotions": ["Amphibious"],
 		"attackSound": "shot"
 	},	
 	{
@@ -1599,7 +1536,6 @@
 		"rangedStrength": 85,
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
-		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
 	{
@@ -1611,7 +1547,6 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -1625,8 +1560,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"uniques": ["Combat very likely to create Great Generals"],
-		"hurryCostModifier": 20,
+		"promotions": ["Great Generals II"],
 		"attackSound": "shot"		
 	},
 	{
@@ -1638,7 +1572,6 @@
 		"cost": 375,
 		"requiredTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 150%"],
-		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
 	{
@@ -1649,9 +1582,8 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["Bonus vs Armor 100%", "Ignores terrain cost", "No defensive terrain bonuses", "Can move after attacking"],
-		"attackSound": "shot",
-		"hurryCostModifier": 20
+		"uniques": ["Bonus vs Armor 100%","Ignores terrain cost","No defensive terrain bonuses","Can move after attacking"],
+		"attackSound": "shot"
 	},
 	// Future Era
 	{
@@ -1661,7 +1593,7 @@
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
-		"hurryCostModifier": 20
+		"attackSound": "shot"
 	},
 	{
 		"name": "Modern Armor",
@@ -1672,8 +1604,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"hurryCostModifier": 20
+		"uniques": ["Can move after attacking","No defensive terrain bonus"]
 	},
 	{
 		"name": "Nuclear Submarine", //modded
@@ -1684,8 +1615,7 @@
 		"rangedStrength": 85,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"uniques": ["Bonus as Attacker [100]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
-		"hurryCostModifier": 20
+		"uniques": ["Bonus as Attacker [100]%","Invisible to others","Can only attack water","Can attack submarines","Can enter ice tiles"]
 	},
 	{
 		"name": "Missile Cruiser", //modded
@@ -1697,8 +1627,7 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks","Can attack submarines"],
-		"hurryCostModifier": 20
+		"uniques": ["[100]% chance to intercept air attacks","Can attack submarines"]
 	},
 	{
 		"name": "Jet Fighter", //modded
@@ -1711,9 +1640,8 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"hurryCostModifier": 20,
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%","6 tiles in every direction always visible"],
-		"attackSound": "shot"
+		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%"],
+		"promotions": ["Air Recon"]
 	},
 	{
 		"name": "Stealth Bomber", //modded
@@ -1725,7 +1653,6 @@
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
-		"hurryCostModifier": 20,
 		"uniques": ["Evasion"],
 		"attackSound": "shot"
 	},
@@ -1737,8 +1664,7 @@
 		"cost": 550,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking","No defensive terrain bonus"]
 	},
 	
 	
