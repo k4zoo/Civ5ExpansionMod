@@ -854,7 +854,7 @@
 		"outerColor": [238,238,236],
 		"innerColor": [77,2,4],
 		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]"],
+		"uniques": ["Starts with [Animal Husbandry]","[+1 Production] from every [Pasture]"],
 		"cities": ["Attila's Court","Washington","Mecca","Tenochtitlan","Babylon","Beijing","Copenhagen","Thebes","London","Paris",
 			"Berlin","Athens","Cusco","Delhi","Onoondaga","Kyoto","Seoul","Karakorum","Istanbul","Persepolis",
 			"Honolulu","Rome","Moscow","Sukhothai","Gao","Madrid",]
@@ -1050,8 +1050,7 @@
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
 		"uniques": ["Cannot build Settlers","+[100]% [Gold] from every [Palace]","Receive free [Merchant of Venice] when you discover [Optics]"],
-		"cities": [
-			"Venice","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
+		"cities": ["Venice","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
 			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
@@ -1077,7 +1076,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["-33% unit upkeep costs","Military units gain 50% more Experience from combat"],
+		"uniques": ["-25% land units maintenance","Military units gain 50% more Experience from combat"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",
