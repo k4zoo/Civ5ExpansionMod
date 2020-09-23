@@ -3,7 +3,7 @@
 		"name": "Tradition",
 		"era": "Ancient era",
 		"effect": "+3 culture in capital and increased rate of border expansion",
-		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
+		"uniques": ["[+3 Culture] in capital","Increased rate of border expansion","Unlocks building the Hanging Gardens"],
 		"policies": [
 			{
 				"name": "Aristocracy",
@@ -53,7 +53,7 @@
 		"name": "Liberty",
 		"era": "Ancient era",
 		"effect": "+1 culture in every city",
-		"uniques": ["[+1 Culture] in all cities"],
+		"uniques": ["[+1 Culture] in all cities","Unlocks building the Pyramids"],
 		"policies": [
 			{
 				"name": "Republic",
@@ -104,7 +104,7 @@
 		"name": "Honor",
 		"era": "Ancient era",
 		"effect": "+25% bonus vs Barbarians; gain Culture when you kill a barbarian unit",
-		"uniques": ["+25% bonus vs Barbarians", "Gain Culture when you kill a barbarian unit", "Notified of new Barbarian encampments"],
+		"uniques": ["+25% bonus vs Barbarians", "Gain Culture when you kill a barbarian unit","Notified of new Barbarian encampments","Unlocks building the Statue of Zeus"],
 		"policies": [
 			{
 				"name": "Warrior Code",
@@ -156,7 +156,7 @@
 		"name": "Piety",
 		"era": "Ancient era",
 		"effect": "Building time of culture buildings reduced by 15%",
-		"uniques": ["+[15]% Production when constructing [Culture] buildings"],
+		"uniques": ["+[15]% Production when constructing [Culture] buildings","Unlocks building the Great Mosque of Djenne"],
 		"policies": [
 			{
 				"name": "Organized Religion",
@@ -208,7 +208,7 @@
 	{
 		"name": "Exploration",
 		"effect": "All military naval units receive +1 movement and +1 sight",
-		"uniques": ["All military naval units receive +1 movement and +1 sight"],
+		"uniques": ["All military naval units receive +1 movement and +1 sight","Unlocks building the Louvre"],
 		"era": "Medieval era",
 		"policies": [
 			{
@@ -237,7 +237,7 @@
 			{
 				"name": "Navigation School",
 				"effect": "2 Great Admiral appears.",
-				"uniques": ["Free [Great Admiral] appears","Free [Great Admiral] appears"],
+				"uniques": ["[2] free [Great Admiral] units appear"],
 				"requires": ["Maritime Infrastructure","Naval Tradition"],
 				"row": 2,
 				"column": 5
@@ -260,7 +260,7 @@
 	{
 		"name": "Commerce",
 		"effect": "+25% gold in capital",
-		"uniques": ["+25% gold in capital"],
+		"uniques": ["+25% gold in capital","Unlocks building the Hanging Gardens"],
 		"era": "Medieval era",
 		"policies": [
 			{
@@ -313,7 +313,7 @@
 		"name": "Rationalism",
 		"era": "Renaissance era",
 		"effect": "Production to science conversion in cities increased by 33%",
-		"uniques": ["Production to science conversion in cities increased by 33%"],
+		"uniques": ["Production to science conversion in cities increased by 33%","Unlocks building the Porcelain Tower"],
 		"policies": [
 			{
 				"name": "Secularism",
@@ -365,7 +365,7 @@
 		"name": "Order",
 		"era": "Industrial era",
 		"effect": "+1 Happiness per City",
-		"uniques": ["[+1 Happiness] in all cities"],
+		"uniques": ["[+1 Happiness] in all cities","Unlocks building the Kremlin"],
 		"policies": [
 			{
 				"name": "United Front",
@@ -415,7 +415,7 @@
 		"name": "Freedom",
 		"era": "Renaissance era",
 		"effect": "+25% great people rate",
-		"uniques": ["+[25]% great person generation in all cities"],
+		"uniques": ["+[25]% great person generation in all cities","Unlocks building the Statue of Liberty"],
 		"policies": [
 			{
 				"name": "Constitution",
@@ -465,7 +465,7 @@
 		"name": "Autocracy",
 		"era": "Industrial era",
 		"effect": "-33% unit upkeep costs",
-		"uniques": ["-33% unit upkeep costs"],
+		"uniques": ["-33% unit upkeep costs","Unlocks building the Prora"],
 		"policies": [
 			{
 				"name": "Populism",
