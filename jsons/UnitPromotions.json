@@ -458,6 +458,10 @@
 		"effect": "[50]% Bonus XP gain"
 	},
 	{
+		"name": "Air Recon", // Air units
+		"effect": "6 tiles in every direction always visible"
+	},
+	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
 		"effect": "-10% combat strength for adjacent enemy units"
 	},
