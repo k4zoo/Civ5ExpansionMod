@@ -260,7 +260,7 @@
 	{
 		"name": "Commerce",
 		"effect": "+25% gold in capital",
-		"uniques": ["+25% gold in capital","Unlocks building the Hanging Gardens"],
+		"uniques": ["+25% gold in capital","Unlocks building the Big Ben"],
 		"era": "Medieval era",
 		"policies": [
 			{
