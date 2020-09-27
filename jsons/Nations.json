@@ -661,7 +661,9 @@
 		"tradeRequest": "Will you consider a trade?",
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
-		//"uniqueName": "Treasures of Nineveh",
+		"uniqueName": "Treasures of Nineveh",
+		"uniqueText": " When a city is conquered, gain a free Technology. Gaining a city through a trade deal does not count
+		",
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -732,7 +734,9 @@
 		"tradeRequest": "I heard nice things from you in your latest sayings...show me.",
 		"outerColor": [88,145,228],
 		"innerColor": [80,23,135],
-		// "uniqueName": "Patriarchate of Constantinople",
+		"uniqueName": "Patriarchate of Constantinople",
+		"uniqueText": " Receive a free policy when you reach Civil Service
+		",
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson","Sardica",
 			"Ani","Dyrrachium","Edessa","Chalcedon","Naissus","Bari","Iconium","Prilep","Samosata","Kars",
 			"Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Vodena",
@@ -756,7 +760,9 @@
 		"tradeRequest": "I had an idea and I realized I should tell it to you!",
 		"outerColor": [189,189,189],
 		"innerColor": [88,0,154],
-		// "uniqueName": "Phonenician Heritage",
+		"uniqueName": "Phonenician Heritage",
+		"uniqueText": " All coastal Cities get a free Harbor
+		",
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -805,7 +811,9 @@
 		"tradeRequest": "I believe I have something that may be of some importance to you.",
 		"outerColor": [254,135,0],
 		"innerColor": [255,255,255],
-		// "uniqueName": "DUTCH_EAST_INDIA_COMPANY",
+		"uniqueName": "Dutch East India Company",
+		"uniqueText": " All Cities provide 1 extra copy of each improved luxury resource
+		",
 		"cities": ["Amsterdam","Rotterdam","Utrecht","Groningen","Breda","Nijimegen","Den Haag","Haarlem","Arnhem","Zutphen",
 			"Maastricht","Tilburg","Eindhoven","Dordrecht","Leiden","Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen",
 			"Apeldoorn","Nova Enschede","Sao Bernardo do Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt",
@@ -877,7 +885,9 @@
 		"tradeRequest": "What if we make a deal, you and me?",
 		"outerColor": [101,211,220],
 		"innerColor": [167,52,31],
-		// "uniqueName": "SPICE_ISLANDERS",
+		"uniqueName": "Spice Islanders",
+		"uniqueText": " After researching Astronomy, 3 coastal cities provide additional 'luxuries' which provide gold and happiness
+		",
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
 			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
@@ -901,7 +911,9 @@
 		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
 		"outerColor": [213,166,120],
 		"innerColor": [43,79,83],
-		// "uniqueName": "THE_LONG_COUNT",
+		"uniqueName": "The Long Count",
+		"uniqueText": " After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years)
+		",
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna",
 			"Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe",
 			"Cerros","Xumantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas",
@@ -926,7 +938,7 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
-		"uniques": ["[+3 Gold] from each Trade Route","[+1 Culture] from each Trade Route"],
+		"uniques": ["[+3 Gold, +1 Culture] from each Trade Route"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Quarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
 			"Taza","Fquih ben Salah","Khouribga","Nador","Settat","Berrechid","Larache","Khemisset","Guelmim","Dakhla",
@@ -1000,6 +1012,8 @@
 		"outerColor": [65,54,42],
 		"innerColor": [78,244,	234],
 		"uniqueName": "Great Expanse",
+		"uniqueText": " Increased rate of border expansion. Units receive a combat bonus when fighting in their own territory
+		"
 		"uniques": ["Cost of acquiring new tiles reduced by 25%", "Increased rate of border expansion", "+15% combat strength for units fighting in friendly territory"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
