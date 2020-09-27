@@ -14,116 +14,87 @@
         "requiredTech": "null",
         "isNationalWonder": true,
         "cost": -1,
+        "uniques": ["Will not be displayed in Civilopedia"],
     },
     {
         "name": "~limit2",
         "requiredTech": "null",
         "isNationalWonder": true,
         "cost": -1,
-    },
-    {
-        "name": "~dutch",
-        "requiredTech": "null",
-        "uniques": ["Provides 1 extra copy of each improved luxury resource near this City"],
-        "cost": -1,
-    }
-    {
-        "name": "Nutmeg", // Indonesian "luxury"
-        "uniqueTo": "Indonesia",
-        "cannotBeBuiltWith": "~limit",
-        "requiredBuilding": "Spice Islanders",
-        "providesFreeBuilding": "~limit",
-        "requiredTech": "Astronomy",
-        "isNationalWonder": true,
-        "cost": -1,
-    },
-    {
-        "name": "Pepper", // Indonesian "luxury"
-        "uniqueTo": "Indonesia",
-        "cannotBeBuiltWith": "~limit",
-        "requiredBuilding": "Spice Islanders",
-        "providesFreeBuilding": "~limit",
-        "requiredTech": "Astronomy",
-        "uniques": ["Spice Islanders: "],
-        "isNationalWonder": true,
-        "cost": -1,
-    },
-    // Nation Unique Desc's
-    // Assyria
-    {"name":"~asy","uniqueTo":"Assyria","requiredTech":"null","cost":1,"uniques":["Treasures of Nineveh:"]},
-    {
-        "name": "Treasures of Nineveh",
-        "cannotBeBuiltWith": "~limit",
-        "uniqueTo": "Assyria",
-        "providesFreeBuilding": "~limit",
-        "isNationalWonder": "true",
-        "cost": -1,
-        "uniques": ["Can only be built in annexed cities","Free Technology"],
-    },
-    {"name":"~asy2","uniqueTo":"Assyria","requiredTech":"null","cost":1},
-    // Byzantium
-    {
-        "name": "Patriarchate of Constantinople",
-        "uniqueTo": "Byzantium",
-        "requiredBuilding": "Palace",
-        "isNationalWonder": "true",
-        "requiredTech": "Civil Service",
-        "cost": -1,
-        "uniques": ["Patriarchate of Constantinople:
-  Available at Civil Service","Free Social Policy"],     
-    },
-    {"name":"~byz","uniqueTo":"Byzantium","requiredTech":"null","cost":1},
-    // Carthage
-    {
-        "name": "Phoenician Heritage",
-        "uniqueTo": "Carthage",
-        "providesFreeBuilding": "Harbor",
-        "cost": -1,
-        "uniques": ["Phoenician Heritage:
-  All coastal Cities get a free Harbor","Can only be built in coastal cities"],
-    },
-    {"name":"~cge","uniqueTo":"Carthage","requiredTech":"null","cost":1},
-    // Dutch
-    {
-        "name": "Dutch East India Company",
-        "uniqueTo": "The Netherlands",
-        "providesFreeBuilding": "~dutch",
-        "cost": -1,
-        "uniques": ["Dutch East India Company:
-  All Cities provide 1 extra copy of each improved luxury resource.
-  "],
-    },
-    // Indonesia
-    {
-        "name": "Spice Islanders",
-        "uniqueTo": "Indonesia",
-        "cannotBeBuiltWith": "Palace",
-        "requiredTech": "Astronomy",
-        "cost": -1,
-        "uniques": ["  After researching Astronomy, 3 Cities (except Capital) provide additional 'luxuries' which provide gold and happiness", "Must be next to [Coast]"],       
+        "uniques": ["Will not be displayed in Civilopedia"],
     },
     {
         "name": "Cloves", // Indonesian "luxury"
         "uniqueTo": "Indonesia",
         "cannotBeBuiltWith": "~limit",
-        "requiredBuilding": "Spice Islanders",
         "providesFreeBuilding": "~limit",
         "requiredTech": "Astronomy",
         "isNationalWonder": true, 
         "cost": -1,
+        "uniques": ["Will not be displayed in Civilopedia"],
     },
-    // Maya
     {
-        "name": "The Long Count",
+        "name": "Nutmeg", // Indonesian "luxury"
+        "uniqueTo": "Indonesia",
+        "cannotBeBuiltWith": "~limit",
+        "providesFreeBuilding": "~limit",
+        "requiredTech": "Astronomy",
+        "isNationalWonder": true,
+        "cost": -1,
+        "uniques": ["Will not be displayed in Civilopedia"],
+    },
+    {
+        "name": "Pepper", // Indonesian "luxury"
+        "uniqueTo": "Indonesia",
+        "cannotBeBuiltWith": "~limit",
+        "providesFreeBuilding": "~limit",
+        "requiredTech": "Astronomy",
+        "isNationalWonder": true,
+        "cost": -1,
+        "uniques": ["Will not be displayed in Civilopedia"],
+    },
+    {
+        "name": "~Dutch",
+        "uniqueTo": "The Netherlands",
+        "cost": -1,
+        "uniques": ["Provides 1 extra copy of each improved luxury resource near this City","Will not be displayed in Civilopedia"],
+    },
+    {
+        "name": "~Assyria",
+        "uniqueTo": "Assyria",
+        "cannotBeBuiltWith": "~limit2",
+        "providesFreeBuilding": "~limit2",
+        "cost": -1,
+        "uniques": ["Can only be built in annexed cities","Free Technology","Will not be displayed in Civilopedia"],
+    },
+    {
+        "name": "~Byzantium",
+        "uniqueTo": "Byzantium",
+        "requiredBuilding": "Palace",
+        "isNationalWonder": "true",
+        "requiredTech": "Civil Service",
+        "cost": -1,
+        "uniques": ["Free Social Policy","Will not be displayed in Civilopedia"],     
+    },
+    {
+        "name": "~Carthage",
+        "replaces": "Harbor",
+        "uniqueTo": "Carthage",
+        "cost": -1,
+        "uniques": ["[+1 Production] from [Water resource] tiles in this city",
+            "Connects trade routes over water","Must be next to [Coast]","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "~Maya",
         "uniqueTo": "The Maya",
         "requiredBuilding": "Palace",
         "greatPersonPoints": {"science": 12,"culture": 12,"production": 12,"gold": 12},
-        "cost": -1,
         "requiredTech": "Theology",
-        "uniques": ["The Long Count:
-  After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years).
-    "],
+        "cost": -1,
+        "uniques": ["Will not be displayed in Civilopedia"],
     },
+	
+	// Buildings & Wonders
     // Ancient Era
     {
         "name": "Palace",
@@ -1162,7 +1133,7 @@
         "culture": 5,
         "isWonder": true,
         "greatPersonPoints": {"culture": 2},        
-        "uniques": ["Culture cost of adopting new Policies reduced by 10%"],
+        "uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
         "requiredTech": "Flight",
         "quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.'  - New Testament, Matthew 11:28"
     },
