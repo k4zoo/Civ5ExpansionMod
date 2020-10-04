@@ -446,8 +446,12 @@
 		"effect": "+[15]% Combat Strength"
 	},
 	{
-		"name": "Amphibious", // Marine and Berserker
+		"name": "Amphibious", // Marine, Berserker, and Songhai
 		"effect": "Amphibious"
+	},
+	{
+		"name": "War Canoes", // Songhai
+		"effect": "Defense bonus when embarked"
 	},
 	{
 		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
