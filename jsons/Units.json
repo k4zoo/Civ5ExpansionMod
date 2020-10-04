@@ -4,7 +4,7 @@
 
 	/* Ancient Era */
 	{
-		"name": "Missionary", //modde
+		"name": "Missionary", //modded
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 200,
@@ -543,7 +543,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No Defensive Terrain Bonuses","Penalty vs City 33%"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%"],
 		"promotions": ["Feared Elephant","Great Generals II"],
 		"attackSound": "horse"		
 	},
