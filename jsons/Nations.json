@@ -532,7 +532,13 @@
 		"outerColor": [214,145,19],
 		"innerColor": [90,0,10],
 		"uniqueName": "River Warlord",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Embarked units can defend themselves"],
+		"uniqueText": " Receive triple Gold from Barbarian encampments and pillaging Cities. Land units gain the War Canoes and Amphibious promotions
+		",
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","[Melee] units gain the [Amphibious] promotion",
+			"[Ranged] units gain the [Amphibious] promotion","[Scout] units gain the [Amphibious] promotion","[Mounted] units gain the [Amphibious] promotion",
+			"[Siege] units gain the [Amphibious] promotion","[Armor] units gain the [Amphibious] promotion","[Melee] units gain the [War Canoes] promotion",
+			"[Ranged] units gain the [War Canoes] promotion","[Scout] units gain the [War Canoes] promotion","[Mounted] units gain the [War Canoes] promotion",
+			"[Siege] units gain the [War Canoes] promotion","[Armor] units gain the [War Canoes] promotion"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
 			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"]
