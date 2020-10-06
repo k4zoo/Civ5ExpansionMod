@@ -325,7 +325,7 @@
 	
 	{
 		"name": "Sortie",
-		"prerequisites": ["Interception II", "Dogfighting II"]
+		"prerequisites": ["Interception II", "Dogfighting II"],
 		"effect": "1 extra Interception may be made per turn",
 		"unitTypes": ["Fighter"]
 	},
@@ -525,17 +525,17 @@
 	},
 	{
 		"name": "Buffalo Horns I", // only for Ikanda
-		"effect": "+1 Movement",
+		"uniques": ["+1 Movement","+[5]% Combat Strength","+25% Defence against ranged attacks"],
 	},
 	{
 		"name": "Buffalo Chest II",
-		"effect": "+25% Defence against ranged attacks",
+		"uniques": ["Bonus vs units in open terrain 10%","+[5]% Combat Strength"],
 		"prerequisites": ["Buffalo Horns I"],
 		"unitTypes": ["Melee"]
 	},
 	{
 		"name": "Buffalo Loins III",
-		"effect": "Bonus as Attacker [30]%",
+		"uniques": ["+[15]% Combat Strength"],
 		"prerequisites": ["Buffalo Chest II"],
 		"unitTypes": ["Melee"]
 	}
