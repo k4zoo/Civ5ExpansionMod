@@ -347,7 +347,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques":["+20% bonus outside friendly territory","No movement cost to pillage"],
+		"uniques":["+[20]% combat bonus in [Foreign Land]","No movement cost to pillage"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1142,7 +1142,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Drill I"],
-		"uniques": ["+20% bonus outside friendly territory"],
+		"uniques": ["+[30]% combat bonus in [Friendly Land]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1414,7 +1414,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["+20% bonus outside friendly territory"],
+		"uniques": ["+[20]% combat bonus in [Foreign Land]"],
 		"attackSound": "shot"
 	},
 	/*{
