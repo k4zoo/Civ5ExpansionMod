@@ -843,7 +843,7 @@
 		"outerColor": [17,44,16],
 		"innerColor": [254,31,33],
 		"uniqueName": "Spirit of Adwa",
-		"uniques": ["+15% combat strength for units fighting in friendly territory"],
+		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama","Mek'ele",
 			"Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena","Nekemte",
 			"Aselia","Dila","Adigrat","Debre Tabor","Sebeta","Shire","Ambo","Negele Arsi","Gambela",
