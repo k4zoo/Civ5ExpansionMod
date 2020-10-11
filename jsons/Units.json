@@ -1654,7 +1654,7 @@
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
-		"uniques": ["Evasion"],
+		"promotions": ["Evasion"],
 		"attackSound": "shot"
 	},
 	{

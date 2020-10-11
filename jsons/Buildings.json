@@ -1184,6 +1184,12 @@
         "requiredTech": "Nuclear Fission"
     },
     {
+        "name": "Recycling Center",    
+        "maintenance": 3,
+        "requiredTech": "Ecology",
+        "uniques": ["Provides [2] [Aluminum]"]
+    },
+    {
         "name": "Solar Plant",
         "production": 5,        
         "percentStatBonus": {"production": 15},
