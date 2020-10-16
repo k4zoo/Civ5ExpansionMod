@@ -9,8 +9,6 @@
     },
     {
         "name": "~limit",
-        "happiness": 4,
-        "gold": 2,
         "requiredTech": "null",
         "isNationalWonder": true,
         "cost": -1,
@@ -31,7 +29,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true, 
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]"],
     },
     {
         "name": "Nutmeg", // Indonesian "luxury"
@@ -41,7 +39,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]"],
     },
     {
         "name": "Pepper", // Indonesian "luxury"
@@ -51,7 +49,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia"],
+        "uniques": ["Will not be displayed in Civilopedia",["Provides [2] [Pepper]"]],
     },
     {
         "name": "~Dutch",
