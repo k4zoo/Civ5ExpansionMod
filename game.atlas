@@ -795,37 +795,44 @@ TileSets/FantasyHex/Tiles/Grassland+Jungle+Brazilwood Camp
   orig: 32, 31
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Hill+Forest+Antiquity Site
+  rotate: false
+  xy: 1108, 291
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Plains+Forest+Antiquity Site
   rotate: false
-  xy: 1108, 226
+  xy: 1315, 683
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Jungle+Brazilwood Camp
   rotate: false
-  xy: 1315, 685
+  xy: 1349, 685
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Salt
   rotate: false
-  xy: 1315, 655
+  xy: 1383, 688
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Truffles
   rotate: false
-  xy: 1349, 658
+  xy: 1451, 688
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site
   rotate: false
-  xy: 1383, 684
+  xy: 1485, 684
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -860,21 +867,21 @@ TileSets/FantasyHex/Units/Hand-Axe
   index: -1
 TileSets/FantasyHex/Units/Missionary
   rotate: false
-  xy: 1108, 291
+  xy: 1108, 261
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Nuclear Submarine
   rotate: false
-  xy: 1108, 261
+  xy: 1108, 231
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Submarine
   rotate: false
-  xy: 1349, 688
+  xy: 1417, 688
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
