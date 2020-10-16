@@ -370,7 +370,8 @@
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Production, +1 Gold] from [Pasture] tiles in this city","All newly-trained [Mounted] units in this city receive the [Drill I] promotion","+[15]% production when building [mounted units] in this city"],
+        "uniques": ["[+1 Production, +1 Gold] from [Pasture] tiles in this city",
+            "New [Mounted] units start with [15] Experience in this city","+[15]% production when building [mounted units] in this city"],
         "requiredTech": "Horseback Riding"
     },
     {

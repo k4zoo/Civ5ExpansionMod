@@ -8,7 +8,7 @@
 			{
 				"name": "Aristocracy",
 				"effect": "+15% production when constructing wonders, +1 happiness for every 10 citizens in a city",
-				"uniques": ["+[15]% Production when constructing [Wonders]", "[+1 Happiness] per [10] population in all cities"],
+				"uniques": ["+[15]% Production when constructing [Wonders]","[+1 Happiness] per [10] population in all cities"],
 				"row": 1,
 				"column": 1
 			},
@@ -29,7 +29,7 @@
 			{
 				"name": "Landed Elite",
 				"effect": "+10% food growth and +2 food in capital",
-				"uniques": ["+[10]% growth in capital", "[+2 Food] in capital"],
+				"uniques": ["+[10]% growth in capital","[+2 Food] in capital"],
 				"requires": ["Legalism"],
 				"row": 2,
 				"column": 2
@@ -280,8 +280,8 @@
 			{
 				"name": "Entrepreneurship",
 				"effect": "Great Merchants are earned 25% faster, +1 Science from every Mint, Market, Bank and Stock Exchange.",
-				"uniques": ["[Great Merchant] is earned [25]% faster", "[+1 Science] from every [Mint]", "[+1 Science] from every [Market]",
-					"[+1 Science] from every [Bank]", "[+1 Science] from every [Stock Exchange]" ],
+				"uniques": ["[Great Merchant] is earned [25]% faster","[+1 Science] from every [Mint]","[+1 Science] from every [Market]",
+					"[+1 Science] from every [Bank]","[+1 Science] from every [Stock Exchange]" ],
 				"requires": ["Trade Unions"],
 				"row": 2,
 				"column": 2
@@ -305,7 +305,7 @@
 			{
 				"name": "Commerce Complete",
 				"effect": "+1 gold from every trading post, double gold from Great Merchant trade missions",
-				"uniques": ["[+1 Gold] from every [Trading post]", "Double gold from Great Merchant trade missions"]
+				"uniques": ["[+1 Gold] from every [Trading post]","Double gold from Great Merchant trade missions"]
 			}
 		]
 	},
@@ -457,7 +457,7 @@
 			{
 				"name": "Freedom Complete",
 				"effect": "Tile yield from great improvement +100%, golden ages increase by 50%",
-				"uniques": ["Tile yield from Great Improvements +100%", "Golden Age length increases +50%"]
+				"uniques": ["Tile yield from Great Improvements +100%","Golden Age length increases +50%"]
 			}
 		]
 	},
@@ -492,7 +492,7 @@
 			{
 				"name": "Police State",
 				"effect": "+3 Happiness from every Courthouse. Build Courthouses in half the usual time.",
-				"uniques": ["[+3 Happiness] from every [Courthouse]", "+[100]% Production when constructing [Courthouse]"],
+				"uniques": ["[+3 Happiness] from every [Courthouse]","+[100]% Production when constructing [Courthouse]"],
 				"requires": ["Militarism"],
 				"row": 2,
 				"column": 5
@@ -500,7 +500,7 @@
 			{
 				"name": "Total War",
 				"effect": "+15% production when building military units and new military units start with 15 Experience",
-				"uniques": ["+[15]% Production when constructing [military units]", "New military units start with [15] Experience"],
+				"uniques": ["+[15]% Production when constructing [military units]","New [military] units start with [15] Experience"],
 				"requires": ["Police State","Fascism"],
 				"row": 3,
 				"column": 4
