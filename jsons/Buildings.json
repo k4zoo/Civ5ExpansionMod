@@ -11,6 +11,7 @@
         "name": "~limit",
         "requiredTech": "null",
         "isNationalWonder": true,
+	"gold": 2,
         "cost": -1,
         "uniques": ["Will not be displayed in Civilopedia"],
     },
@@ -49,7 +50,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia",["Provides [2] [Pepper]"]],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]"],
     },
     {
         "name": "~Dutch",
