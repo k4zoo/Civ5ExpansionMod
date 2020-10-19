@@ -11,7 +11,7 @@
         "name": "~limit",
         "requiredTech": "null",
         "isNationalWonder": true,
-	"gold": 2,
+	    "gold": 2,
         "cost": -1,
         "uniques": ["Will not be displayed in Civilopedia"],
     },
