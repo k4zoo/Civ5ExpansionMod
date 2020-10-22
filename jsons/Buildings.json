@@ -715,7 +715,7 @@
         "culture": 2,
         "hurryCostModifier": 25,
         "requiredBuilding": "Walls",
-	"uniques": ["[+1 Gold] once [Flight] is discovered"],
+	    "uniques": ["[+1 Gold] once [Flight] is discovered"],
         "requiredTech": "Chivalry"
     },
     {

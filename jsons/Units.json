@@ -347,7 +347,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques":["+[20]% combat bonus in [Foreign Land]","No movement cost to pillage"],
+		"uniques":["+[20]% combat bonus in [Foreign Land]","Earn [50]% of [military] opponent's [Strength] as [Culture] for kills",
+			"No movement cost to pillage"],
 		"attackSound": "metalhit"
 	},
 	{
