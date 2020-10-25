@@ -8,8 +8,7 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 200,
-		"requiredTech": "null",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence","Unbuildable"],
 	},
 	{
 		"name": "Worker",

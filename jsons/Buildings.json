@@ -5,22 +5,20 @@
         "cost": -1,
         "culture": 5,
         "happiness": 1,
-        "requiredTech": "null"
+        "uniques": ["Unbuildable"]
     },
     {
         "name": "~limit",
-        "requiredTech": "null",
         "isNationalWonder": true,
 	    "gold": 2,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia"],
+        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
     },
     {
         "name": "~limit2",
-        "requiredTech": "null",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia"],
+        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
     },
     {
         "name": "Cloves", // Indonesian "luxury"
