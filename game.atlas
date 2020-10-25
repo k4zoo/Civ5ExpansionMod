@@ -739,56 +739,56 @@ TileSets/FantasyHex/Tiles/Desert+Desert Hill+Iron
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Pasture
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Kasbah
   rotate: false
   xy: 1460, 171
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Salt
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Pasture
   rotate: false
   xy: 1494, 171
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Sheep
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Salt
   rotate: false
   xy: 1528, 171
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Silver
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Sheep
   rotate: false
   xy: 1562, 171
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Terrace Farm
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Silver
   rotate: false
   xy: 1596, 171
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Desert Hill+Uranium
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Terrace Farm
   rotate: false
   xy: 1630, 171
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Flood plains+Kasbah
+TileSets/FantasyHex/Tiles/Desert+Desert Hill+Uranium
   rotate: false
-  xy: 1664, 172
-  size: 32, 30
-  orig: 32, 30
+  xy: 1664, 171
+  size: 32, 31
+  orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Desert+Kasbah
+TileSets/FantasyHex/Tiles/Desert+Flood plains+Kasbah
   rotate: false
   xy: 1698, 172
   size: 32, 30
@@ -823,37 +823,44 @@ TileSets/FantasyHex/Tiles/Hill+Forest+Antiquity Site
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Kasbah
+  rotate: false
+  xy: 1970, 173
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Plains+Forest+Antiquity Site
   rotate: false
-  xy: 2038, 169
+  xy: 2072, 169
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Jungle+Brazilwood Camp
   rotate: false
-  xy: 2072, 171
+  xy: 2106, 171
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Salt
   rotate: false
-  xy: 2106, 174
+  xy: 2140, 174
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Truffles
   rotate: false
-  xy: 2174, 174
+  xy: 2208, 174
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site
   rotate: false
-  xy: 2208, 170
+  xy: 2242, 170
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -888,21 +895,21 @@ TileSets/FantasyHex/Units/Hand-Axe
   index: -1
 TileSets/FantasyHex/Units/Missionary
   rotate: false
-  xy: 1970, 174
+  xy: 2004, 174
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Nuclear Submarine
   rotate: false
-  xy: 2004, 174
+  xy: 2038, 174
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Submarine
   rotate: false
-  xy: 2140, 174
+  xy: 2174, 174
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
