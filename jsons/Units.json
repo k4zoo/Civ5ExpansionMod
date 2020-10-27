@@ -1583,7 +1583,8 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["Bonus vs Armor 100%","Ignores terrain cost","No defensive terrain bonuses","Can move after attacking"],
+		"uniques": ["Bonus vs Armor 100%","All tiles costs 1","Can pass through impassable tiles",
+			"No defensive terrain bonuses","Can move after attacking"],
 		"attackSound": "shot"
 	},
 	// Future Era

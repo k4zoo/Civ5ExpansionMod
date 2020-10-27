@@ -764,9 +764,10 @@
 		"tradeRequest": "I had an idea and I realized I should tell it to you!",
 		"outerColor": [189,189,189],
 		"innerColor": [88,0,154],
-		"uniqueName": "Phonenician Heritage",
-		"uniqueText": " All coastal Cities get a free Harbor
+		"uniqueName": "Phoenician Heritage",
+		"uniqueText": " All coastal Cities get a free Harbor. Units may cross mountains, taking 50 HP damage if they end a turn on a mountain
 		",
+		"uniques": ["[non-air] units gain the [Phoenician Heritage] promotion"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",

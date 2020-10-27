@@ -446,6 +446,10 @@
 		"effect": "+[15]% Combat Strength"
 	},
 	{
+		"name": "Phoenician Heritage", // Carthage
+		"effect": "Can pass through impassable tiles"
+	},
+	{
 		"name": "Amphibious", // Marine, Berserker, and Songhai
 		"effect": "Amphibious"
 	},

@@ -1236,6 +1236,13 @@ UnitPromotionIcons/Homeland Guardian
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Phoenician Heritage
+  rotate: false
+  xy: 586, 152
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Ambition
   rotate: false
   xy: 298, 54
