@@ -1245,7 +1245,7 @@
         "isNationalWonder": true,
         "percentStatBonus": {"culture": 100},
         "requiredBuildingInAllCities": "Hotel",
-        "requiredTech": "Telecommunications",
+        "requiredTech": "Telecommunications"
     },
     {
         "name": "CN Tower", //modded
@@ -1255,7 +1255,8 @@
         "cost": 1250,
         "greatPersonPoints": {"production": 1},
         "providesFreeBuilding": "Broadcast Tower",
-        "requiredTech": "Telecommunications"
+        "requiredTech": "Telecommunications",
+        "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
     },
     {
         "name": "Hubble Space Telescope",
