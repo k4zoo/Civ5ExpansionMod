@@ -28,7 +28,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true, 
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
     },
     {
         "name": "Nutmeg", // Indonesian "luxury"
@@ -38,7 +38,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
     },
     {
         "name": "Pepper", // Indonesian "luxury"
@@ -48,7 +48,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
     },
     {
         "name": "~Dutch",
