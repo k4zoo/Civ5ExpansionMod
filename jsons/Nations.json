@@ -765,9 +765,9 @@
 		"outerColor": [189,189,189],
 		"innerColor": [88,0,154],
 		"uniqueName": "Phoenician Heritage",
-		"uniqueText": " All coastal Cities get a free Harbor. Units may cross mountains, taking 50 HP damage if they end a turn on a mountain
+		"uniqueText": " All coastal Cities gain a free Harbor. Units may cross mountains, taking 50 HP damage if they end a turn on a mountain
 		",
-		"uniques": ["[non-air] units gain the [Phoenician Heritage] promotion"],
+		"uniques": ["Gain a free [Harbor] [in every coastal city]","[non-air] units gain the [Phoenician Heritage] promotion"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -819,6 +819,7 @@
 		"uniqueName": "Dutch East India Company",
 		"uniqueText": " All Cities provide 1 extra copy of each improved luxury resource
 		",
+		"uniques": ["Gain a free [~Dutch] [in every city]"]
 		"cities": ["Amsterdam","Rotterdam","Utrecht","Groningen","Breda","Nijimegen","Den Haag","Haarlem","Arnhem","Zutphen",
 			"Maastricht","Tilburg","Eindhoven","Dordrecht","Leiden","Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen",
 			"Apeldoorn","Nova Enschede","Sao Bernardo do Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt",
