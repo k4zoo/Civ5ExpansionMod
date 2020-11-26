@@ -28,7 +28,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true, 
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
     },
     {
         "name": "Nutmeg", // Indonesian "luxury"
@@ -38,7 +38,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
     },
     {
         "name": "Pepper", // Indonesian "luxury"
@@ -48,7 +48,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
     },
     {
         "name": "~Dutch",
@@ -1238,7 +1238,7 @@
         "isNationalWonder": true,
         "percentStatBonus": {"culture": 100},
         "requiredBuildingInAllCities": "Hotel",
-        "requiredTech": "Telecommunications",
+        "requiredTech": "Telecommunications"
     },
     {
         "name": "CN Tower", //modded
@@ -1248,7 +1248,8 @@
         "cost": 1250,
         "greatPersonPoints": {"production": 1},
         "providesFreeBuilding": "Broadcast Tower",
-        "requiredTech": "Telecommunications"
+        "requiredTech": "Telecommunications",
+        "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
     },
     {
         "name": "Hubble Space Telescope",
