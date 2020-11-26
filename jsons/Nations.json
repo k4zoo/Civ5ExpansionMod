@@ -819,7 +819,7 @@
 		"uniqueName": "Dutch East India Company",
 		"uniqueText": " All Cities provide 1 extra copy of each improved luxury resource
 		",
-		"uniques": ["Gain a free [~Dutch] [in every city]"]
+		"uniques": ["Gain a free [~Dutch] [in every city]"],
 		"cities": ["Amsterdam","Rotterdam","Utrecht","Groningen","Breda","Nijimegen","Den Haag","Haarlem","Arnhem","Zutphen",
 			"Maastricht","Tilburg","Eindhoven","Dordrecht","Leiden","Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen",
 			"Apeldoorn","Nova Enschede","Sao Bernardo do Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt",
