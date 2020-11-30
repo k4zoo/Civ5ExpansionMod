@@ -125,7 +125,7 @@
 		"name": "Trade Route",
 		"resourceType": "Strategic",
 		"gold": 1
-	}
+	},
 	
 	// Luxury resources
 	{

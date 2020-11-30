@@ -117,7 +117,7 @@
         "cityStrength": 2,
         "culture": 1,
         "cost": 1,
-        "uniques": ["Indicates the capital city","Provides [4] [Trade Route]"]
+        "uniques": ["Indicates the capital city","Provides [4] [Trade Route]","[-1 Gold] from every [River]","[+1 Gold] from every [Flood plains]"]
     },
     {
         "name": "Monument",

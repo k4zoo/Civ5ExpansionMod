@@ -947,7 +947,7 @@
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
 		"uniqueText": " +3 Gold and +1 Culture from every Caravan and Cargo Ship
-		"
+		",
 		"uniques": ["[+3 Gold, +1 Culture] from every [Caravan]","[+3 Gold, +1 Culture] from every [Cargo Ship]"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Quarzazate","Meknes","Agadir","Oujda",
 			"Kenitra","Tetouan","Essaouira","Safi","Taroudannt","Mohammedia","El Aaiun","Beni Mellal","El Jadida","Ksar el Kebir",
