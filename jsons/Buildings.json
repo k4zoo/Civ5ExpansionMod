@@ -86,6 +86,28 @@
 	
 	// Buildings & Wonders
     // Ancient Era
+
+    {
+        "name": "Caravan", //modded
+        "food": 2,
+        "production": 2,
+        "gold": 2,
+        "requiredTech": "Animal Husbandry",
+        "requiredResource": "Trade Route",
+        "cost": 75,
+        "cannotBeBuiltWith": "Cargo Ship"
+    },
+    {
+        "name": "Cargo Ship", //modded
+        "food": 4,
+        "production": 4,
+        "gold": 4,
+        "requiredTech": "Sailing",
+        "requiredResource": "Trade Route",
+        "cost": 100,
+        "cannotBeBuiltWith": "Caravan",
+        "uniques": ["Must be next to [Coast]"]
+    },
     {
         "name": "Palace",
         "isNationalWonder": true,
@@ -95,7 +117,7 @@
         "cityStrength": 2,
         "culture": 1,
         "cost": 1,
-        "uniques": ["Indicates the capital city"]
+        "uniques": ["Indicates the capital city","Provides [4] [Trade Route]"]
     },
     {
         "name": "Monument",
@@ -279,7 +301,8 @@
         "gold": 5,
         "greatPersonPoints": {"gold": 1},
         "isWonder": true,
-        "uniques": ["Must be next to [Coast]","[+1 Gold] from [Water] tiles in this city"],
+        "uniques": ["Must be next to [Coast]","Provides [1] [Trade Route]","[+1 Gold] from [Water] tiles in this city"],
+        "providesFreeBuilding": "Cargo Ship",
         "requiredTech": "Iron Working",
         "quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
     },
@@ -343,6 +366,13 @@
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
     {
+        "name": "Caravansary", 
+        "cost": 120,
+        "hurryCostModifier": 25,
+        "uniques": ["[+1 Gold] from every [Caravan]"],
+        "requiredTech": "Horseback Riding"
+    }
+    {
         "name": "Stable", 
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
@@ -405,7 +435,7 @@
         "isWonder": true,
         "greatPersonPoints": {"culture": 1},
         "requiredTech": "Construction",
-        "uniques": ["Free [Warrior] appears", "Free [Archer] appears", "Free [Composite Bowman] appears", "Free [Spearman] appears", "Free [Catapult] appears"],
+        "uniques": ["Free [Warrior] appears","Free [Archer] appears","Free [Composite Bowman] appears","Free [Spearman] appears","Free [Catapult] appears"],
         "quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.'  - Sun Tzu"
     },
     {
@@ -498,7 +528,9 @@
         "isWonder": true,
         "greatPersonPoints": {"production": 1},
         "culture": 1,
-        "uniques": ["[+1 Food, +1 Production] from [Desert] tiles in this city","[+6 Culture] once [Archaeology] is discovered","Must be next to [Desert]"],
+        "uniques": ["[+1 Food, +1 Production] from [Desert] tiles in this city","[+6 Culture] once [Archaeology] is discovered",
+            "Provides [1] [Trade Route]","Must be next to [Desert]"],
+        "providesFreeBuilding": "Caravan",
         "requiredTech": "Currency",
         "quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
     },
@@ -605,7 +637,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "requiredBuildingInAllCities": "Market",
-        "uniques": ["[+2 Gold] from each Trade Route","Cost increases by [30] per owned city"],
+        "uniques": ["[+2 Gold] from every [Caravan]","[+2 Gold] from every [Cargo Ship]","Cost increases by [30] per owned city"],
         "requiredTech": "Currency"
     },
     {
@@ -652,7 +684,7 @@
         "name": "Harbor",
         "maintenance": 2,
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Production] from [Water resource] tiles in this city",
+        "uniques": ["[+1 Production] from [Water resource] tiles in this city","[+1 Gold] from every [Cargo Ship]",
             "Connects trade routes over water","Must be next to [Coast]"],
         "requiredTech": "Compass"
     },

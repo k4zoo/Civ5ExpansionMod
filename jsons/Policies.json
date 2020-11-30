@@ -244,8 +244,8 @@
 			},
 			{
 				"name": "Treasure Fleets",
-				"effect": "+2 Gold from all trade routes",
-				"uniques": ["[+4 Gold] from each Trade Route"],
+				"effect": "+4 Gold from every Cargo Ship",
+				"uniques": ["[+4 Gold] from every [Cargo Ship]"],
 				"requires": ["Merchant Navy","Navigation School"],
 				"row": 3,
 				"column": 2
@@ -264,24 +264,24 @@
 		"era": "Medieval era",
 		"policies": [
 			{
-				"name": "Trade Unions",
-				"effect": "Maintenance on roads & railroads reduced by 33%, +2 gold from all trade routes",
-				"uniques": ["Maintenance on roads & railroads reduced by 33%", "[+2 Gold] from each Trade Route"],
+				"name": "Wagon Trains",
+				"effect": "Maintenance on roads & railroads reduced by 33%, +2 Gold from every Caravan",
+				"uniques": ["Maintenance on roads & railroads reduced by 33%", "[+2 Gold] from every [Caravan]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Mercantilism",
-				"effect": "-25% to purchasing items in cities",
-				"uniques": ["Cost of purchasing items in cities reduced by [25]%"],
+				"effect": "-25% to purchasing items in cities, +1 Science from every Mint, Market, Bank and Stock Exchange",
+				"uniques": ["Cost of purchasing items in cities reduced by [25]%","[+1 Science] from every [Mint]",
+					"[+1 Science] from every [Market]","[+1 Science] from every [Bank]","[+1 Science] from every [Stock Exchange]"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Entrepreneurship",
-				"effect": "Great Merchants are earned 25% faster, +1 Science from every Mint, Market, Bank and Stock Exchange.",
-				"uniques": ["[Great Merchant] is earned [25]% faster","[+1 Science] from every [Mint]","[+1 Science] from every [Market]",
-					"[+1 Science] from every [Bank]","[+1 Science] from every [Stock Exchange]" ],
+				"effect": "Great Merchants are earned 25% faster, Double gold from Great Merchant trade missions",
+				"uniques": ["[Great Merchant] is earned [25]% faster","Double gold from Great Merchant trade missions"],
 				"requires": ["Trade Unions"],
 				"row": 2,
 				"column": 2
@@ -305,7 +305,7 @@
 			{
 				"name": "Commerce Complete",
 				"effect": "+1 gold from every trading post, double gold from Great Merchant trade missions",
-				"uniques": ["[+1 Gold] from every [Trading post]","Double gold from Great Merchant trade missions"]
+				"uniques": ["[+1 Gold] from every [Trading post]"]
 			}
 		]
 	},
