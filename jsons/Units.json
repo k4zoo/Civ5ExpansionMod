@@ -1584,7 +1584,7 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["Bonus vs Armor 100%","All tiles costs 1","Can pass through impassable tiles",
-			"No defensive terrain bonuses","Unable to capture cities","Can move after attacking"],
+			"No defensive terrain bonus","Unable to capture cities","Can move after attacking"],
 		"attackSound": "shot"
 	},
 	// Future Era

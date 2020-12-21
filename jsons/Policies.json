@@ -2,33 +2,28 @@
 	{
 		"name": "Tradition",
 		"era": "Ancient era",
-		"effect": "+3 culture in capital and increased rate of border expansion",
 		"uniques": ["[+3 Culture] in capital","Increased rate of border expansion","Unlocks building the Hanging Gardens"],
 		"policies": [
 			{
 				"name": "Aristocracy",
-				"effect": "+15% production when constructing wonders, +1 happiness for every 10 citizens in a city",
 				"uniques": ["+[15]% Production when constructing [Wonders]","[+1 Happiness] per [10] population in all cities"],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Legalism",
-				"effect": "Immediately creates a cheapest available cultural building in each of your first 4 cities for free",
 				"uniques":["Immediately creates a cheapest available cultural building in each of your first 4 cities for free"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Oligarchy",
-				"effect": "Units in cities cost no Maintenance, garrisoned city +50% attacking strength",
 				"uniques": ["Units in cities cost no Maintenance","+50% attacking strength for cities with garrisoned units"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Landed Elite",
-				"effect": "+10% food growth and +2 food in capital",
 				"uniques": ["+[10]% growth in capital","[+2 Food] in capital"],
 				"requires": ["Legalism"],
 				"row": 2,
@@ -36,7 +31,6 @@
 			},
 			{
 				"name": "Monarchy",
-				"effect": "+1 gold and -1 unhappiness for every 2 citizens in capital",
 				"uniques": ["+1 gold and -1 unhappiness for every 2 citizens in capital"],
 				"requires": ["Legalism"],
 				"row": 2,
@@ -44,7 +38,6 @@
 			},
 			{
 				"name": "Tradition Complete",
-				"effect": "+15% growth and +2 food in all cities",
 				"uniques": ["+[15]% growth in all cities","[+2 Food] in all cities"]
 			}
 		]
@@ -52,26 +45,22 @@
 	{
 		"name": "Liberty",
 		"era": "Ancient era",
-		"effect": "+1 culture in every city",
 		"uniques": ["[+1 Culture] in all cities","Unlocks building the Pyramids"],
 		"policies": [
 			{
 				"name": "Republic",
-				"effect": "+1 production in every city, +5% production when constructing buildings",
 				"uniques": ["[+1 Production] in all cities", "+[5]% Production when constructing [Buildings]"],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Citizenship",
-				"effect": "Tile improvement speed +25%, receive a free worker near the capital",
 				"uniques": ["Tile improvement speed +25%", "Free [Worker] appears"],
 				"row": 1,
 				"column": 4
 			},
 			{
 				"name": "Collective Rule",
-				"effect": "Training of settlers increased +50% in capital, receive a new settler near the capital",
 				"uniques": ["Training of settlers increased +50% in capital", "Free [Settler] appears"],
 				"requires": ["Republic"],
 				"row": 2,
@@ -79,7 +68,6 @@
 			},
 			{
 				"name": "Representation",
-				"effect": "Each city founded increases culture cost of policies 33% less than normal. Starts a golden age.",
 				"uniques": ["Each city founded increases culture cost of policies [33]% less than normal", "Empire enters golden age"],
 				"requires": ["Citizenship"],
 				"row": 2,
@@ -87,7 +75,6 @@
 			},
 			{
 				"name": "Meritocracy",
-				"effect": "+1 happiness for every city connected to capital, -5% unhappiness from citizens",
 				"uniques": ["+1 happiness for every city connected to capital", "Unhappiness from population decreased by [5]%"],
 				"requires": ["Citizenship"],
 				"row": 2,
@@ -95,7 +82,6 @@
 			},
 			{
 				"name": "Liberty Complete",
-				"effect": "Free Great Person of choice near capital",
 				"uniques": ["Free Great Person"]
 			}
 		]
@@ -103,26 +89,22 @@
 	{
 		"name": "Honor",
 		"era": "Ancient era",
-		"effect": "+25% bonus vs Barbarians; gain Culture when you kill a barbarian unit",
 		"uniques": ["+25% bonus vs Barbarians","Earn [100]% of [Barbarian] opponent's [Strength] as [Culture] for kills","Notified of new Barbarian encampments","Unlocks building the Statue of Zeus"],
 		"policies": [
 			{
 				"name": "Warrior Code",
-				"effect": "+20% production when training melee units",
-				"uniques":["+[15]% Production when constructing [melee units]","[Great General] is earned [50]% faster","Free [Great General] appears"],
+				"uniques":["+[15]% Production when constructing [Melee] units","[Great General] is earned [50]% faster","Free [Great General] appears"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Discipline",
-				"effect": "+15% combat strength for melee units which have another military unit in an adjacent tile",
 				"uniques":["+15% combat strength for melee units which have another military unit in an adjacent tile"],
 				"row": 1,
 				"column": 4
 			},
 			{
 				"name": "Military Tradition",
-				"effect": "Military units gain 50% more Experience from combat",
 				"uniques":["Military units gain 50% more Experience from combat"],
 				"requires": ["Warrior Code"],
 				"row": 2,
@@ -130,7 +112,6 @@
 			},
 			{
 				"name": "Military Caste",
-				"effect": "Each city with a garrison increases happiness by 1 and culture by 2",
 				"uniques": ["[+1 Happiness, +2 Culture] in all cities with a garrison"],
 				"requires": ["Discipline"],
 				"row": 2,
@@ -138,7 +119,6 @@
 			},
 			{
 				"name": "Professional Army",
-				"effect": "Gold cost of upgrading military units reduced by 33% and construct Barracks, Armories, and Military Academies 50% faster",
 				"uniques": ["Gold cost of upgrading military units reduced by 33%","+[50]% Production when constructing [Barracks]",
 					"+[50]% Production when constructing [Armory]","+[50]% Production when constructing [Military Academy]"],
 				"requires": ["Military Caste"],
@@ -147,7 +127,6 @@
 			},
 			{
 				"name": "Honor Complete",
-				"effect": "Gain gold for each unit killed",
 				"uniques": ["Earn [10]% of [military] opponent's [Cost] as [Gold] for kills"],
 			}
 		]
@@ -155,12 +134,10 @@
 	{
 		"name": "Piety",
 		"era": "Ancient era",
-		"effect": "Building time of culture buildings reduced by 15%",
 		"uniques": ["+[15]% Production when constructing [Culture] buildings","Unlocks building the Great Mosque of Djenne"],
 		"policies": [
 			{
 				"name": "Organized Religion",
-				"effect": "+1 happiness for each monument, temple and monastery",
 				"uniques": ["[+1 Happiness] from every [Monument]","[+1 Happiness] from every [Temple]",
 					"[+1 Happiness] from every [Monastery]"],
 				"row": 1,
@@ -168,14 +145,12 @@
 			},
 			{
 				"name": "Mandate Of Heaven",
-				"effect": "50% of excess happiness added to culture towards policies",
 				"uniques": ["50% of excess happiness added to culture towards policies"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Theocracy",
-				"effect": "Temples give +10% gold",
 				"uniques": ["+[10]% [Gold] from every [Temple]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
@@ -183,7 +158,6 @@
 			},
 			{
 				"name": "Reformation",
-				"effect": "+33% culture in all cities with a world wonder, immediately enter a golden age",
 				"uniques": ["+33% culture in all cities with a world wonder","Empire enters golden age"],
 				"requires": ["Organized Religion"],
 				"row": 2,
@@ -191,7 +165,6 @@
 			},
 			{
 				"name": "Free Religion",
-				"effect": "+1 culture for each monument, temple and monastery. Gain a free policy.",
 				"uniques": ["[+1 Culture] from every [Monument]","[+1 Culture] from every [Temple]","[+1 Culture] from every [Monastery]",
 					"Free Social Policy"],
 				"requires": ["Mandate Of Heaven","Reformation"],
@@ -200,34 +173,29 @@
 			},
 			{
 				"name": "Piety Complete",
-				"effect": "Reduce culture cost of future policies by 10%",
 				"uniques": ["Culture cost of adopting new Policies reduced by [10]%"]
 			}
 		]
 	},
 	{
 		"name": "Exploration",
-		"effect": "All military naval units receive +1 movement and +1 sight",
 		"uniques": ["All military naval units receive +1 movement and +1 sight","Unlocks building the Louvre"],
 		"era": "Medieval era",
 		"policies": [
 			{
 				"name": "Maritime Infrastructure",
-				"effect": "+3 production from every Lighthouse",
 				"uniques": ["[+3 Production] from every [Lighthouse]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Naval Tradition",
-				"effect": "+1 happiness for every Lighthouse, Harbor, and Seaport",
 				"uniques": ["[+1 Happiness] from every [Lighthouse]","[+1 Happiness] from every [Harbor]","[+1 Happiness] from every [Seaport]"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Merchant Navy",
-				"effect": "+1 Gold for each Harbor, Seaport, or Lighthouse. +4 Production and +4 Culture in the city with the East India Company.",
 				"uniques": ["[+1 Gold] from every [Lighthouse]","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Seaport]",
 					"[+4 Production, +4 Culture] from every [East India Company]"],
 				"requires": ["Maritime Infrastructure","Naval Tradition"],
@@ -236,7 +204,6 @@
 			},
 			{
 				"name": "Navigation School",
-				"effect": "2 Great Admiral appears.",
 				"uniques": ["[2] free [Great Admiral] units appear"],
 				"requires": ["Maritime Infrastructure","Naval Tradition"],
 				"row": 2,
@@ -244,7 +211,6 @@
 			},
 			{
 				"name": "Treasure Fleets",
-				"effect": "+4 Gold from every Cargo Ship",
 				"uniques": ["[+4 Gold] from every [Cargo Ship]"],
 				"requires": ["Merchant Navy","Navigation School"],
 				"row": 3,
@@ -252,27 +218,23 @@
 			},
 			{
 				"name": "Exploration Complete",
-				"effect": "Antiquity Sites receive double yield",
 				"uniques": ["[+8 Culture] from every [Archaeological Dig]"]
 			}
 		]
 	},
 	{
 		"name": "Commerce",
-		"effect": "+25% gold in capital",
 		"uniques": ["+25% gold in capital","Unlocks building the Big Ben"],
 		"era": "Medieval era",
 		"policies": [
 			{
 				"name": "Wagon Trains",
-				"effect": "Maintenance on roads & railroads reduced by 33%, +2 Gold from every Caravan",
 				"uniques": ["Maintenance on roads & railroads reduced by 33%", "[+2 Gold] from every [Caravan]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Mercantilism",
-				"effect": "-25% to purchasing items in cities, +1 Science from every Mint, Market, Bank and Stock Exchange",
 				"uniques": ["Cost of purchasing items in cities reduced by [25]%","[+1 Science] from every [Mint]",
 					"[+1 Science] from every [Market]","[+1 Science] from every [Bank]","[+1 Science] from every [Stock Exchange]"],
 				"row": 1,
@@ -280,7 +242,6 @@
 			},
 			{
 				"name": "Entrepreneurship",
-				"effect": "Great Merchants are earned 25% faster, Double gold from Great Merchant trade missions",
 				"uniques": ["[Great Merchant] is earned [25]% faster","Double gold from Great Merchant trade missions"],
 				"requires": ["Wagon Trains"],
 				"row": 2,
@@ -288,7 +249,6 @@
 			},
 			{
 				"name": "Patronage",
-				"effect": "Cost of purchasing culture buildings reduced by 50%",
 				"uniques": ["Cost of purchasing [Culture] buildings reduced by [50]%"],
 				"requires": ["Mercantilism"],
 				"row": 2,
@@ -296,7 +256,6 @@
 			},
 			{
 				"name": "Protectionism",
-				"effect": "+1 happiness from each luxury resource",
 				"uniques": ["+1 happiness from each luxury resource"],
 				"requires": ["Entrepreneurship","Patronage"],
 				"row": 3,
@@ -304,7 +263,6 @@
 			},
 			{
 				"name": "Commerce Complete",
-				"effect": "+1 gold from every trading post, double gold from Great Merchant trade missions",
 				"uniques": ["[+1 Gold] from every [Trading post]"]
 			}
 		]
@@ -312,19 +270,16 @@
 	{
 		"name": "Rationalism",
 		"era": "Renaissance era",
-		"effect": "Production to science conversion in cities increased by 33%",
 		"uniques": ["Production to science conversion in cities increased by 33%","Unlocks building the Porcelain Tower"],
 		"policies": [
 			{
 				"name": "Secularism",
-				"effect": "+2 science from every specialist",
 				"uniques": ["[+2 Science] from every specialist"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Humanism",
-				"effect": "+1 happiness from every university, observatory and public school",
 				"uniques": ["[+1 Happiness] from every [University]","[+1 Happiness] from every [Observatory]",
 					"[+1 Happiness] from every [Public School]"],
 				"row": 1,
@@ -332,7 +287,6 @@
 			},
 			{
 				"name": "Free Thought",
-				"effect": "+1 science from every trading post, +17% science from universities",
 				"uniques": ["[+1 Science] from every [Trading post]", "+[17]% [Science] from every [University]"],
 				"requires": ["Secularism"],
 				"row": 2,
@@ -340,7 +294,6 @@
 			},
 			{
 				"name": "Sovereignty",
-				"effect": "+15% science while empire is happy",
 				"uniques": ["+15% science while empire is happy"],
 				"requires": ["Humanism"],
 				"row": 2,
@@ -348,7 +301,6 @@
 			},
 			{
 				"name": "Scientific Revolution",
-				"effect": "Science gained from research agreements +50%",
 				"uniques": ["Science gained from research agreements +50%"],
 				"requires": ["Free Thought"],
 				"row": 3,
@@ -356,7 +308,6 @@
 			},
 			{
 				"name": "Rationalism Complete",
-				"effect": "+1 gold from all science buildings",
 				"uniques": ["[+1 Gold] from all [Science] buildings"]
 			}
 		]
@@ -364,33 +315,28 @@
 	{
 		"name": "Order",
 		"era": "Industrial era",
-		"effect": "+1 Happiness per City",
 		"uniques": ["[+1 Happiness] in all cities","Unlocks building the Kremlin"],
 		"policies": [
 			{
 				"name": "United Front",
-				"effect": "+20% Production when producing military units",
-				"uniques": ["+[20]% Production when constructing [military units]"],
+				"uniques": ["+[20]% Production when constructing [Military] units"],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Socialism",
-				"effect": "Cost of purchasing production buildings reduced by 50%",
 				"uniques": ["[+1 Gold] from all [Production] buildings","[+1 Gold] from all [Science] buildings","[+1 Gold] from all [Culture] buildings"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Nationalism",
-				"effect": "+15% combat strength for units fighting in friendly territory",
 				"uniques": ["+[15]% combat bonus for units fighting in [Friendly Land]"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Planned Economy",
-				"effect": "Factories increase a cities Science output by 25%",
 				"uniques": ["+[25]% [Science] from every [Factory]"],
 				"requires": ["Socialism"],
 				"row": 2,
@@ -398,7 +344,6 @@
 			},
 			{
 				"name": "Communism",
-				"effect": "+2 Production per City and +5% Production when constructing buildings",
 				"uniques": ["[+2 Production] in all cities","+[10]% Production when constructing [Buildings]"],
 				"requires": ["Planned Economy"],
 				"row": 3,
@@ -406,7 +351,6 @@
 			},
 			{
 				"name": "Order Complete",
-				"effect": "+1 Food, Production, Science, Gold and Culture per city",
 				"uniques": ["[+1 Food] in all cities","[+1 Production] in all cities","[+1 Science] in all cities","[+1 Gold] in all cities","[+1 Culture] in all cities"]
 			}
 		]
@@ -414,33 +358,28 @@
 	{
 		"name": "Freedom",
 		"era": "Renaissance era",
-		"effect": "+25% great people rate",
 		"uniques": ["+[25]% great person generation in all cities","Unlocks building the Statue of Liberty"],
 		"policies": [
 			{
 				"name": "Constitution",
-				"effect": "+2 culture from each wonder",
 				"uniques": ["[+2 Culture] from every Wonder"],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Universal Suffrage",
-				"effect": "+1 production per 5 population",
 				"uniques": ["[+1 Production] per [5] population in all cities"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Civil Society",
-				"effect": "-50% food consumption by specialists",
 				"uniques": ["-50% food consumption by specialists"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Free Speech",
-				"effect": "+1 culture for every 2 citizens",
 				"uniques": ["[+1 Culture] per [2] population in all cities"],
 				"requires": ["Constitution"],
 				"row": 2,
@@ -448,7 +387,6 @@
 			},
 			{
 				"name": "Democracy",
-				"effect": "Specialists produce half normal unhappiness",
 				"uniques": ["Specialists produce half normal unhappiness"],
 				"requires": ["Civil Society"],
 				"row": 2,
@@ -456,7 +394,6 @@
 			},
 			{
 				"name": "Freedom Complete",
-				"effect": "Tile yield from great improvement +100%, golden ages increase by 50%",
 				"uniques": ["Tile yield from Great Improvements +100%","Golden Age length increases +50%"]
 			}
 		]
@@ -464,26 +401,22 @@
 	{
 		"name": "Autocracy",
 		"era": "Industrial era",
-		"effect": "-33% unit upkeep costs",
 		"uniques": ["-33% unit upkeep costs","Unlocks building the Prora"],
 		"policies": [
 			{
 				"name": "Populism",
-				"effect": "Wounded military units deal +25% damage",
 				"uniques": ["[Wounded] units deal +[25]% damage"],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Militarism",
-				"effect": "Gold cost of purchasing units -33%",
 				"uniques": ["Gold cost of purchasing units -33%"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Fascism",
-				"effect": "Quantity of strategic resources produced by the empire increased by 100%",
 				"uniques": ["Quantity of strategic resources produced by the empire increased by 100%"],
 				"requires": ["Populism","Militarism"],
 				"row": 2,
@@ -491,7 +424,6 @@
 			},
 			{
 				"name": "Police State",
-				"effect": "+3 Happiness from every Courthouse. Build Courthouses in half the usual time.",
 				"uniques": ["[+3 Happiness] from every [Courthouse]","+[100]% Production when constructing [Courthouse]"],
 				"requires": ["Militarism"],
 				"row": 2,
@@ -499,15 +431,13 @@
 			},
 			{
 				"name": "Total War",
-				"effect": "+15% production when building military units and new military units start with 15 Experience",
-				"uniques": ["+[15]% Production when constructing [military units]","New [military] units start with [15] Experience"],
+				"uniques": ["+[15]% Production when constructing [Military] units","New [Military] units start with [15] Experience"],
 				"requires": ["Police State","Fascism"],
 				"row": 3,
 				"column": 4
 			},
 			{
 				"name": "Autocracy Complete",
-				"effect": "+20% attack bonus to all Military Units for 30 turns",
 				"uniques": ["+20% attack bonus to all Military Units for 30 turns"]
 			}
 		]
