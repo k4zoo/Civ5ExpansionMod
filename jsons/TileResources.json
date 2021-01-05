@@ -123,7 +123,7 @@
 	},
 	{
 		"name": "Trade Route",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"gold": 1
 	},
 	
