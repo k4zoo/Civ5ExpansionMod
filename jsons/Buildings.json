@@ -786,7 +786,7 @@
         "maintenance": 0,
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 50},
-        "uniques": ["Must be next to [Mountain]","Requires a [Observatory] in this city"],
+        "uniques": ["Must be next to [Mountain]"],
         "requiredTech": "Astronomy"
     },
     {
