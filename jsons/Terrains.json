@@ -20,7 +20,6 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"defenceBonus": -0.1,
 		"RGB": [97,171,58]
 	},
 	{
