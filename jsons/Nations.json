@@ -226,9 +226,12 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Trade Caravans",
-		"uniqueText": " +1 Gold from every Caravan and Cargo Ship, Double quantity of Oil produced
+		"uniqueText": " +1 Gold from every Trade Route, Double quantity of Oil produced
 		",
-		"uniques": ["[+1 Gold] from every [Caravan]","[+1 Gold] from every [Cargo Ship]","Double quantity of [Oil] produced"],
+		"uniques": ["[+1 Gold] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
+			"[+1 Gold] from every [Land Trade Route (Gold)]",/*"[+1 Gold] from every [Sea Trade Route (Food)]",
+			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]",*/
+			"Double quantity of [Oil] produced"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]

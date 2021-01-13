@@ -211,7 +211,8 @@
 			},
 			{
 				"name": "Treasure Fleets",
-				"uniques": ["[+4 Gold] from every [Cargo Ship]"],
+				"uniques": ["[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]",
+					"[+4 Gold] from every [Land Trade Route (Gold)]"], //Land = Sea once fixed
 				"requires": ["Merchant Navy","Navigation School"],
 				"row": 3,
 				"column": 2
@@ -229,7 +230,8 @@
 		"policies": [
 			{
 				"name": "Wagon Trains",
-				"uniques": ["Maintenance on roads & railroads reduced by 33%", "[+2 Gold] from every [Caravan]"],
+				"uniques": ["Maintenance on roads & railroads reduced by 33%","[+2 Gold] from every [Land Trade Route (Food)]",
+					"[+2 Gold] from every [Land Trade Route (Production)]","[+2 Gold] from every [Land Trade Route (Gold)]"],
 				"row": 1,
 				"column": 2
 			},
@@ -417,7 +419,9 @@
 			},
 			{
 				"name": "Fascism",
-				"uniques": ["Quantity of strategic resources produced by the empire increased by 100%"],
+				"uniques": ["Double quantity of [Horses] produced","Double quantity of [Iron] produced",
+					"Double quantity of [Coal] produced","Double quantity of [Oil] produced",
+					"Double quantity of [Aluminum] produced","Double quantity of [Uranium] produced"],
 				"requires": ["Populism","Militarism"],
 				"row": 2,
 				"column": 3

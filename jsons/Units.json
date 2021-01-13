@@ -7,15 +7,15 @@
 		"name": "Missionary", //modded
 		"unitType": "Civilian",
 		"movement": 4,
-		"cost": 200,
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence","Unbuildable"],
+		"cost": 200
 	},
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build improvements on tiles"],
-		"cost": 70
+		"cost": 70,
+		"uniques": ["Can build improvements on tiles"]
 	},
 	{
 		"name": "Settler",
@@ -32,8 +32,29 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 250,
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Can construct [Customs house]","Double movement in coast"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Can construct [Customs house]","Double movement in coast"]
 	},
+	{
+		"name": "Caravan",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 75,
+		"uniques": ["Can construct [Land Trade Route (Food)]","Can construct [Land Trade Route (Production)]",
+			"Can construct [Land Trade Route (Gold)]", "Trade Routes on Coastal cities provide +3 yield"], //Will be adjusted once cargo ship is available
+		"requiredResource": "Trade Route",
+		"requiredTech": "Animal Husbandry"
+	},
+	/*{
+		"name": "Cargo Ship",
+		"unitType": "WaterCivilian",
+		"movement": 4,
+		"cost": 100,
+		"uniques": ["Can construct [Sea Trade Route (Food)]","Can construct [Sea Trade Route (Production)]",
+			"Can construct [Sea Trade Route (Gold)]"],
+		"requiredResource": "Trade Route",
+		"requiredTech": "Sailing"
+	},*/
 	{
 		"name": "Scout",
 		"unitType": "Scout",
