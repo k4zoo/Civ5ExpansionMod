@@ -4,7 +4,7 @@
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
-		"turnsToBuild": 1,
+		"turnsToBuild": 5,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] on [fresh water] tiles once [Civil Service] is discovered",
