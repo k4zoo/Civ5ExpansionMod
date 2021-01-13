@@ -95,7 +95,7 @@
         "providesFreeBuilding": "~Poland1",
         "requiredTech": "Optics",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Theology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -105,7 +105,7 @@
         "providesFreeBuilding": "~Poland1",
         "requiredTech": "Horseback Riding",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Theology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -115,7 +115,7 @@
         "providesFreeBuilding": "~Poland1",
         "requiredTech": "Mathematics",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Theology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -125,7 +125,7 @@
         "providesFreeBuilding": "~Poland1",
         "requiredTech": "Construction",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Theology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
         	"Will not be displayed in Civilopedia"],
     },
     // Poland Medieval
@@ -142,7 +142,7 @@
         "providesFreeBuilding": "~Poland2",
         "requiredTech": "Theology",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Astronomy]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -152,7 +152,7 @@
         "providesFreeBuilding": "~Poland2",
         "requiredTech": "Civil Service",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Astronomy]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -162,7 +162,7 @@
         "providesFreeBuilding": "~Poland2",
         "requiredTech": "Guilds",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Astronomy]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -172,7 +172,7 @@
         "providesFreeBuilding": "~Poland2",
         "requiredTech": "Metal Casting",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Astronomy]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
         	"Will not be displayed in Civilopedia"],
     },
     // Poland Renaissance
@@ -189,7 +189,7 @@
         "providesFreeBuilding": "~Poland3",
         "requiredTech": "Astronomy",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Archaeology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -199,7 +199,7 @@
         "providesFreeBuilding": "~Poland3",
         "requiredTech": "Acoustics",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Archaeology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -209,7 +209,7 @@
         "providesFreeBuilding": "~Poland3",
         "requiredTech": "Banking",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Archaeology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -219,7 +219,7 @@
         "providesFreeBuilding": "~Poland3",
         "requiredTech": "Printing Press",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Archaeology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -229,7 +229,7 @@
         "providesFreeBuilding": "~Poland3",
         "requiredTech": "Gunpowder",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Archaeology]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
         	"Will not be displayed in Civilopedia"],
     },
     // Poland Industrial
@@ -246,7 +246,7 @@
         "providesFreeBuilding": "~Poland4",
         "requiredTech": "Archaeology",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Refrigeration]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -256,7 +256,7 @@
         "providesFreeBuilding": "~Poland4",
         "requiredTech": "Scientific Theory",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Refrigeration]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -266,7 +266,7 @@
         "providesFreeBuilding": "~Poland4",
         "requiredTech": "Industrialization",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Refrigeration]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -276,7 +276,7 @@
         "providesFreeBuilding": "~Poland4",
         "requiredTech": "Rifling",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Refrigeration]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
         	"Will not be displayed in Civilopedia"],
     },  
     {
@@ -286,7 +286,7 @@
         "providesFreeBuilding": "~Poland4",
         "requiredTech": "Military Science",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Refrigeration]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
         	"Will not be displayed in Civilopedia"],
     }, 
     {
@@ -296,7 +296,7 @@
         "providesFreeBuilding": "~Poland4",
         "requiredTech": "Fertilizer",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Refrigeration]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
         	"Will not be displayed in Civilopedia"],
     }, 
     // Poland Modern
@@ -313,7 +313,7 @@
         "providesFreeBuilding": "~Poland5",
         "requiredTech": "Refrigeration",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Pharmaceuticals]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -323,7 +323,7 @@
         "providesFreeBuilding": "~Poland5",
         "requiredTech": "Radio",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Pharmaceuticals]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -333,7 +333,7 @@
         "providesFreeBuilding": "~Poland5",
         "requiredTech": "Replaceable Parts",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Pharmaceuticals]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -343,7 +343,7 @@
         "providesFreeBuilding": "~Poland5",
         "requiredTech": "Flight",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Pharmaceuticals]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -353,7 +353,7 @@
         "providesFreeBuilding": "~Poland5",
         "requiredTech": "Railroad",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Pharmaceuticals]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
         	"Will not be displayed in Civilopedia"],
     },
     // Poland Atomic
@@ -370,7 +370,7 @@
         "providesFreeBuilding": "~Poland6",
         "requiredTech": "Pharmaceuticals",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Telecommunications]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -380,7 +380,7 @@
         "providesFreeBuilding": "~Poland6",
         "requiredTech": "Atomic Theory",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Telecommunications]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -390,7 +390,7 @@
         "providesFreeBuilding": "~Poland6",
         "requiredTech": "Radar",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Telecommunications]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
         	"Will not be displayed in Civilopedia"],
     },
     {
@@ -400,7 +400,7 @@
         "providesFreeBuilding": "~Poland6",
         "requiredTech": "Combined Arms",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Obsolete with [Telecommunications]",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
         	"Will not be displayed in Civilopedia"],
     },
     // Poland Information
@@ -417,7 +417,7 @@
         "providesFreeBuilding": "~Poland7",
         "requiredTech": "Telecommunications",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
     },
     {
         "name": "Free Information Policy 2",
@@ -426,7 +426,7 @@
         "providesFreeBuilding": "~Poland7",
         "requiredTech": "Mobile Tactics",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
     },
     {
         "name": "Free Information Policy 3",
@@ -435,7 +435,7 @@
         "providesFreeBuilding": "~Poland7",
         "requiredTech": "Advanced Ballistics",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
     },
     {
         "name": "Free Information Policy 4",
@@ -444,7 +444,7 @@
         "providesFreeBuilding": "~Poland7",
         "requiredTech": "Satellites",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
     },  
     {
         "name": "Free Information Policy 5",
@@ -453,7 +453,7 @@
         "providesFreeBuilding": "~Poland7",
         "requiredTech": "Robotics",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
     }, 
     {
         "name": "Free Information Policy 6",
@@ -462,7 +462,7 @@
         "providesFreeBuilding": "~Poland7",
         "requiredTech": "Lasers",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Free Social Policy","Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
     }, 
     {
         "name": "Coastal Bonus",
