@@ -81,7 +81,6 @@
         "cost": -1,
         "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia"],
     },
-    // Poland Classical
     {
         "name": "~Poland1",
         "isNationalWonder": true,
@@ -128,7 +127,6 @@
         "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
         	"Will not be displayed in Civilopedia"],
     },
-    // Poland Medieval
     {
         "name": "~Poland2",
         "isNationalWonder": true,
@@ -175,7 +173,6 @@
         "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
         	"Will not be displayed in Civilopedia"],
     },
-    // Poland Renaissance
     {
         "name": "~Poland3",
         "isNationalWonder": true,
@@ -232,7 +229,6 @@
         "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
         	"Will not be displayed in Civilopedia"],
     },
-    // Poland Industrial
     {
         "name": "~Poland4",
         "isNationalWonder": true,
@@ -299,7 +295,6 @@
         "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
         	"Will not be displayed in Civilopedia"],
     }, 
-    // Poland Modern
     {
         "name": "~Poland5",
         "isNationalWonder": true,
@@ -356,7 +351,6 @@
         "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
         	"Will not be displayed in Civilopedia"],
     },
-    // Poland Atomic
     {
         "name": "~Poland6",
         "isNationalWonder": true,
@@ -403,7 +397,6 @@
         "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
         	"Will not be displayed in Civilopedia"],
     },
-    // Poland Information
     {
         "name": "~Poland7",
         "isNationalWonder": true,
@@ -465,12 +458,17 @@
         "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
     }, 
     {
+        "name": "~CS",
+        "isNationalWonder": "true",
+        "cost": -1,
+        "uniques": ["Provides [-4] [Trade Route]","Will not be displayed in Civilopedia","Unbuildable"]
+    }
+    {
         "name": "Coastal Bonus",
         "isNationalWonder": "true",
         "cost": -1,
         "uniques": ["[+3 Food] from every [Land Trade Route (Food)]","[+3 Production] from every [Land Trade Route (Production)]",
             "[+3 Gold, +2 Science] from every [Land Trade Route (Gold)]","Will not be displayed in Civilopedia","Unbuildable"]
-
     }
 	
 	// Buildings & Wonders
