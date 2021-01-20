@@ -1,6 +1,5 @@
 [
-
-{
+	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
@@ -83,43 +82,49 @@
 		"uniques": ["[+1 Gold] once [Compass] is discovered"]
 	},
 
-	// Special improvements
+	// Special improvement
 	{
 		"name": "Archaeological Dig",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 	},
 	{
 		"name": "Land Trade Route (Food)",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"food": 1,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Land Trade Route (Production)",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"production": 1,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Land Trade Route (Gold)",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 6,
 		"science": 2,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
-	/*{
+	{
 		"name": "Sea Trade Route (Food)",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 7,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"food": 3,
+		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
-		"production": 7,
-		"uniques": ["Provides [-1] [Trade Route]"]
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"production": 3,
+		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
-		"gold": 9,
-		"science": 4,
-		"uniques": ["Provides [-1] [Trade Route]"]
-	},*/
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"gold": 8,
+		"science": 3,
+		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
+	},
 
 	// Military improvements
 	{
@@ -199,27 +204,32 @@
 	// Great Person improvements
 	{
 		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"science": 8,
 		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered",
 			"[+2 Science] once [Atomic Theory] is discovered"]
 	},
 	{
 		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"culture": 6,
 		"uniques": ["Great Improvement"]
 	},
 	{
 		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"production": 4,
 		"uniques": ["Great Improvement","[+1 Production] once [Chemistry] is discovered"]
 	},
 	{
 		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 4,
 		"uniques": ["Great Improvement","[+1 Gold] once [Economics] is discovered"]
 	},
 	{
 		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units",
 			"Great Improvement"],
 		// TODO (G&K): adds every tile around it to your territory

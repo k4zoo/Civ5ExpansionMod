@@ -42,11 +42,11 @@
 		"movement": 2,
 		"cost": 75,
 		"uniques": ["Can construct [Land Trade Route (Food)]","Can construct [Land Trade Route (Production)]",
-			"Can construct [Land Trade Route (Gold)]", "Trade Routes on Coastal cities provide +3 yield"], //Will be adjusted once cargo ship is available
+			"Can construct [Land Trade Route (Gold)]","Trade Routes on Coastal cities provide +3 yield"], //Will be adjusted once cargo ship is available
 		"requiredResource": "Trade Route",
 		"requiredTech": "Animal Husbandry"
 	},
-	/*{
+	{
 		"name": "Cargo Ship",
 		"unitType": "WaterCivilian",
 		"movement": 4,
@@ -55,7 +55,7 @@
 			"Can construct [Sea Trade Route (Gold)]"],
 		"requiredResource": "Trade Route",
 		"requiredTech": "Sailing"
-	},*/
+	},
 	{
 		"name": "Scout",
 		"unitType": "Scout",

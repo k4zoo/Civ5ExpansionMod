@@ -120,12 +120,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2}
-	},
-	{
-		"name": "Trade Route",
-		"resourceType": "Strategic",
-		"gold": 1
-	},
+	}
 	
 	// Luxury resources
 	{
@@ -255,9 +250,8 @@
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1}
 	}
-	//modded
 	{
-		"name": "Bison",
+		"name": "Bison", //modded
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
@@ -266,7 +260,7 @@
 		"building": "Granary"
 	},
 	{
-		"name": "Citrus",
+		"name": "Citrus", //modded
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Grassland"],
 		"food": 1,
@@ -276,7 +270,7 @@
 		"building": "Granary"
 	},
 	{
-		"name": "Copper",
+		"name": "Copper", //modded
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra","Snow"],
 		"gold": 2,
@@ -284,7 +278,7 @@
 		"improvementStats": {"production": 1}
 	},
 	{
-		"name": "Cocoa",
+		"name": "Cocoa", //modded
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
@@ -293,7 +287,7 @@
 		"improvementStats": {"food": 1,"gold": 1}
 	},
 	{
-		"name": "Crab",
+		"name": "Crab", //modded
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
@@ -302,7 +296,7 @@
 		"improvementStats": {"food": 1,"gold": 1},
 	},
 	{
-		"name": "Truffles",
+		"name": "Truffles", //modded
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
@@ -310,7 +304,7 @@
 		"improvementStats": {"gold": 2}
 	},
 	{
-		"name": "Salt",
+		"name": "Salt", //modded
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains", "Desert", "Tundra","Desert Hill"],
 		"gold": 1,
@@ -319,26 +313,33 @@
 		"improvementStats": {"food": 1, "production": 1},
 	},
 	{
-		"name": "Nutmeg",
+		"name": "Nutmeg", //modded
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
 	{
-		"name": "Cloves",
+		"name": "Cloves", //modded
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
 	{
-		"name": "Pepper",
+		"name": "Pepper", //modded
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
+
+	// Ingame Mechanics
 	{
-		"name": "Antiquity Site",
+		"name": "Antiquity Site", //modded
 		"resourceType": "Bonus",
 		"revealedBy": "Archaeology",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert"],
 		"improvement": "Archaeological Dig",
 		"improvementStats": {"culture": 7},
-	}
+	},
+	{
+		"name": "Trade Route", //modded
+		"resourceType": "Strategic",
+		"gold": 1
+	},
 ]

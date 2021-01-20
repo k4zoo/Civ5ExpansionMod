@@ -211,8 +211,8 @@
 			},
 			{
 				"name": "Treasure Fleets",
-				"uniques": ["[+4 Gold] from every [Land Trade Route (Food)]","[+4 Gold] from every [Land Trade Route (Production)]",
-					"[+4 Gold] from every [Land Trade Route (Gold)]"], //Land = Sea once fixed
+				"uniques": ["[+4 Gold] from every [Sea Trade Route (Food)]","[+4 Gold] from every [Sea Trade Route (Production)]",
+					"[+4 Gold] from every [Sea Trade Route (Gold)]"], //Land = Sea once fixed
 				"requires": ["Merchant Navy","Navigation School"],
 				"row": 3,
 				"column": 2
@@ -231,7 +231,9 @@
 			{
 				"name": "Wagon Trains",
 				"uniques": ["Maintenance on roads & railroads reduced by 33%","[+2 Gold] from every [Land Trade Route (Food)]",
-					"[+2 Gold] from every [Land Trade Route (Production)]","[+2 Gold] from every [Land Trade Route (Gold)]"],
+					"[+2 Gold] from every [Land Trade Route (Production)]","[+2 Gold] from every [Land Trade Route (Gold)]",
+					"[+2 Gold] from every [Sea Trade Route (Food)]","[+2 Gold] from every [Sea Trade Route (Production)]",
+					"[+2 Gold] from every [Sea Trade Route (Gold)]"],
 				"row": 1,
 				"column": 2
 			},
