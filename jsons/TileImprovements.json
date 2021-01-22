@@ -85,7 +85,7 @@
 	// Special improvement
 	{
 		"name": "Archaeological Dig",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"resourceTerrainAllow": ["Grassland","Plains","Forest","Jungle","Desert"],
 	},
 	{
 		"name": "Land Trade Route (Food)",
@@ -102,27 +102,27 @@
 	{
 		"name": "Land Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
-		"gold": 6,
-		"science": 2,
+		"gold": 4,
+		"science": 3,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 	{
 		"name": "Sea Trade Route (Food)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
-		"food": 3,
+		"food": 4,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 	{
 		"name": "Sea Trade Route (Production)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
-		"production": 3,
+		"production": 4,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 	{
 		"name": "Sea Trade Route (Gold)",
 		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
-		"gold": 8,
-		"science": 3,
+		"gold": 6,
+		"science": 5,
 		"uniques": ["Provides [-1] [Trade Route]"]
 	},
 
@@ -204,34 +204,28 @@
 	// Great Person improvements
 	{
 		"name": "Academy",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"science": 8,
 		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered",
 			"[+2 Science] once [Atomic Theory] is discovered"]
 	},
 	{
 		"name": "Landmark",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"culture": 6,
 		"uniques": ["Great Improvement"]
 	},
 	{
 		"name": "Manufactory",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"production": 4,
 		"uniques": ["Great Improvement","[+1 Production] once [Chemistry] is discovered"]
 	},
 	{
 		"name": "Customs house",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"gold": 4,
 		"uniques": ["Great Improvement","[+1 Gold] once [Economics] is discovered"]
 	},
 	{
 		"name": "Citadel",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
-		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units",
-			"Can be built outside your borders","Great Improvement"],
+		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units","Great Improvement","Can be built outside your borders"],
 		// TODO (G&K): adds every tile around it to your territory
 	},
 
