@@ -716,7 +716,7 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
-		"uniqueText": " +3 Gold and +1 Culture from every Caravan and Cargo Ship
+		"uniqueText": " +3 Gold and +1 Culture from every Trade Route
 		",
 		"uniques": ["[+3 Gold, +1 Culture] from every [Caravan]","[+3 Gold, +1 Culture] from every [Cargo Ship]"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Quarzazate","Meknes","Agadir","Oujda",
@@ -1076,7 +1076,10 @@
 		"outerColor": [105,34,172],
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
-		"uniques": ["Cannot build Settlers","+[100]% [Gold] from every [Palace]","Receive free [Merchant of Venice] when you discover [Optics]"],
+		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics
+		"
+		"uniques": ["Cannot build Settlers","+[100]% [Gold] from every [Palace]","Receive free [Merchant of Venice] when you discover [Optics]",
+			"Double quantity of [Trade Route] produced"],
 		"cities": ["Venice","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",

@@ -554,10 +554,9 @@
         "uniqueTo": "Assyria",
         "cost": 75,            
         "specialistSlots": {"Artist": 1},
-        "xpForNewUnits": 10,
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["[+1 Science] Per [2] Population in this city","+10 XP for all military units produced in this city"],
+        "uniques": ["[+1 Science] Per [2] Population in this city","New [Military] units start with [10] Experience in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -639,9 +638,9 @@
     },
     {
         "name": "Barracks",
-        "xpForNewUnits": 15,
         "hurryCostModifier": 25,
         "maintenance": 1,
+        "uniques": ["New [Military] units start with [15] Experience in this city"],
         "requiredTech": "Bronze Working"
     },
     {
@@ -649,10 +648,9 @@
         "replaces": "Barracks",
         "uniqueTo": "Zulu",
         "cost": 75,
-        "xpForNewUnits": 15,
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["All newly-trained [Melee] units in this city receive the [Buffalo Horns I] promotion"],
+        "uniques": ["New [Military] units start with [15] Experience in this city","All newly-trained [Melee] units in this city receive the [Buffalo Horns I] promotion"],
         "requiredTech": "Bronze Working"
     }
     {
@@ -669,10 +667,9 @@
         "name": "Krepost",
         "replaces": "Barracks",
         "uniqueTo": "Russia",
-        "xpForNewUnits": 15,
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["Culture and Gold costs of acquiring new tiles reduced by 25% in this city"],
+        "uniques": ["New [Military] units start with [15] Experience in this city","Culture and Gold costs of acquiring new tiles reduced by 25% in this city"],
         "requiredTech": "Bronze Working"
     },
     {
@@ -1136,10 +1133,9 @@
     },
     {
         "name": "Armory",
-        "xpForNewUnits": 15,
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["Requires a [Barracks] in this city"],
+        "uniques": ["New [Military] units start with [15] Experience in this city","Requires a [Barracks] in this city"],
         "requiredTech": "Steel"
     },
 
@@ -1285,8 +1281,8 @@
         "name": "Seaport",
         "hurryCostModifier": 25,
         "maintenance": 3,
-	"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
-		"Must be next to [Coast]","+[15]% production when building [naval units] in this city",
+	    "uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
+		"Must be next to [Coast]","+[15]% production when building [water units] in this city",
         "Requires a [Harbor] in this city"],
         "requiredTech": "Navigation"
     },
@@ -1386,19 +1382,17 @@
     },
     {
         "name": "Military Academy",
-        "xpForNewUnits": 15,
         "hurryCostModifier": 0,
         "maintenance": 1,
-        "uniques": ["Requires a [Armory] in this city"],
+        "uniques": ["New [Military] units start with [15] Experience in this city","Requires a [Armory] in this city"],
         "requiredTech": "Military Science"
     },
     {
         "name": "Brandenburg Gate",
         "culture": 3,
-        "xpForNewUnits": 15,
         "greatPersonPoints": {"science": 2},
         "isWonder": true,
-        "uniques": ["Free [Great General] appears"],
+        "uniques": ["New [Military] units start with [15] Experience in this city","Free [Great General] appears"],
         "requiredTech": "Military Science",
         "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.'  - Horace"
     },
