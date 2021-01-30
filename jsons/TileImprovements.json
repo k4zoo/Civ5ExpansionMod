@@ -234,60 +234,62 @@
 	{
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Hill"],
 		"culture": 1,
 		"turnsToBuild": 4,
-		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] once [Flight] is discovered","Must be next to [Coast]"],
+		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] once [Flight] is discovered",
+			"Must be next to [Coast]"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
 	{
 		"name": "Chateau",
 		"uniqueTo": "France",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert"],
 		"gold": 1,
 		"culture": 2,
 		"turnsToBuild":7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] once [Flight] is discovered"],
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert"]
+		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] once [Flight] is discovered"]
 	},
 	{
 		"name": "Brazilwood Camp",
 		"uniqueTo": "Brazil",
+		"terrainsCanBeBuiltOn": ["Jungle"],
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques": ["[+2 Culture] once [Acoustics] is discovered"],
-		"terrainsCanBeBuiltOn": ["Jungle"]
+		"uniques": ["[+2 Culture] once [Acoustics] is discovered"]
 	},
 	{
 		"name": "Polder",
 		"uniqueTo": "The Netherlands",
+		"terrainsCanBeBuiltOn": ["Marsh","Flood plains"],
 		"food": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Production, +2 Gold] once [Economics] is discovered"],
-		"terrainsCanBeBuiltOn": ["Marsh","Flood plains"]
+		"uniques": ["[+1 Production, +2 Gold] once [Economics] is discovered"]
 	},
 	{
 		"name": "Kasbah",
 		"uniqueTo": "Morocco",
+		"terrainsCanBeBuiltOn": ["Desert","Desert Hill","Flood plains"],
 		"food": 1,
 		"production": 1,
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Chivalry",
-		"uniques": ["Gives a defensive bonus of [50]%"],
-		"terrainsCanBeBuiltOn": ["Desert","Desert Hill","Flood plains"],
+		"uniques": ["Gives a defensive bonus of [50]%"]
 	},
 	{
 		"name": "Feitoria",
 		"uniqueTo": "Portugal",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
 		"turnsToBuild": 7,
 		"gold": 3,
 		"happiness": 2,
 		"techRequired": "Navigation",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
-		"uniques": [/*"Provides 1 extra copy of each improved luxury resource near this City"*/,"Gives a defensive bonus of [50]%","Can only be built on Coastal tiles"],
+		"uniques": ["Gives a defensive bonus of [50]%","Can only be built on Coastal tiles"]
 	},
 	{
 		"name": "Terrace farm",
