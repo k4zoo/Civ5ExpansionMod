@@ -79,384 +79,113 @@
         "greatPersonPoints": {"science": 12,"culture": 12,"production": 12,"gold": 12},
         "requiredTech": "Theology",
         "cost": -1,
-        "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia"],
+        "uniques": ["Requires a [Palace] in this city","Will not be displayed in Civilopedia"]
     },
     {
         "name": "~Poland1",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
-    },
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+    }
     {
-        "name": "Free Classical Policy 1",
+        "name": "Free Classical Policy",
         "uniqueTo": "Poland",
         "cannotBeBuiltWith": "~Poland1",
         "providesFreeBuilding": "~Poland1",
-        "requiredTech": "Optics",
         "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Classical Policy 2",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland1",
-        "providesFreeBuilding": "~Poland1",
-        "requiredTech": "Horseback Riding",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Classical Policy 3",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland1",
-        "providesFreeBuilding": "~Poland1",
-        "requiredTech": "Mathematics",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Classical Policy 4",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland1",
-        "providesFreeBuilding": "~Poland1",
-        "requiredTech": "Construction",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Theology]",
-        	"Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy",
+            "Obsolete with [Theology]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
     },
     {
         "name": "~Poland2",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
-    },
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+    }
     {
-        "name": "Free Medieval Policy 1",
+        "name": "Free Medieval Policy",
         "uniqueTo": "Poland",
         "cannotBeBuiltWith": "~Poland2",
         "providesFreeBuilding": "~Poland2",
-        "requiredTech": "Theology",
         "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Medieval Policy 2",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland2",
-        "providesFreeBuilding": "~Poland2",
-        "requiredTech": "Civil Service",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Medieval Policy 3",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland2",
-        "providesFreeBuilding": "~Poland2",
-        "requiredTech": "Guilds",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Medieval Policy 4",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland2",
-        "providesFreeBuilding": "~Poland2",
-        "requiredTech": "Metal Casting",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Astronomy]",
-        	"Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy",
+            "Obsolete with [Astronomy]","Unlocked with [Medieval era]","Will not be displayed in Civilopedia"]
     },
     {
         "name": "~Poland3",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
-    },
-	{
-        "name": "Free Renaissance Policy 1",
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+    }
+    {
+        "name": "Free Renaissance Policy",
         "uniqueTo": "Poland",
         "cannotBeBuiltWith": "~Poland3",
         "providesFreeBuilding": "~Poland3",
-        "requiredTech": "Astronomy",
         "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Renaissance Policy 2",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland3",
-        "providesFreeBuilding": "~Poland3",
-        "requiredTech": "Acoustics",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Renaissance Policy 3",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland3",
-        "providesFreeBuilding": "~Poland3",
-        "requiredTech": "Banking",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Renaissance Policy 4",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland3",
-        "providesFreeBuilding": "~Poland3",
-        "requiredTech": "Printing Press",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Renaissance Policy 5",
-        "uniqueTo": "Poland",
-       	"cannotBeBuiltWith": "~Poland3",
-        "providesFreeBuilding": "~Poland3",
-        "requiredTech": "Gunpowder",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Archaeology]",
-        	"Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy",
+            "Obsolete with [Archaeology]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
     },
     {
         "name": "~Poland4",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+    }
+    {
+        "name": "Free Industrial Policy",
+        "uniqueTo": "Poland",
+        "cannotBeBuiltWith": "~Poland4",
+        "providesFreeBuilding": "~Poland4",
+        "cost": -1,
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy",
+            "Obsolete with [Refrigeration]","Unlocked with [Industrial era]","Will not be displayed in Civilopedia"]
     },
-    {
-        "name": "Free Industrial Policy 1",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland4",
-        "providesFreeBuilding": "~Poland4",
-        "requiredTech": "Archaeology",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Industrial Policy 2",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland4",
-        "providesFreeBuilding": "~Poland4",
-        "requiredTech": "Scientific Theory",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Industrial Policy 3",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland4",
-        "providesFreeBuilding": "~Poland4",
-        "requiredTech": "Industrialization",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Industrial Policy 4",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland4",
-        "providesFreeBuilding": "~Poland4",
-        "requiredTech": "Rifling",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
-        	"Will not be displayed in Civilopedia"],
-    },  
-    {
-        "name": "Free Industrial Policy 5",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland4",
-        "providesFreeBuilding": "~Poland4",
-        "requiredTech": "Military Science",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
-        	"Will not be displayed in Civilopedia"],
-    }, 
-    {
-        "name": "Free Industrial Policy 6",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland4",
-        "providesFreeBuilding": "~Poland4",
-        "requiredTech": "Fertilizer",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Refrigeration]",
-        	"Will not be displayed in Civilopedia"],
-    }, 
     {
         "name": "~Poland5",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
-    },
-	{
-        "name": "Free Modern Policy 1",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland5",
-        "providesFreeBuilding": "~Poland5",
-        "requiredTech": "Refrigeration",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
-        	"Will not be displayed in Civilopedia"],
-    },
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+    }
     {
-        "name": "Free Modern Policy 2",
+        "name": "Free Modern Policy",
         "uniqueTo": "Poland",
         "cannotBeBuiltWith": "~Poland5",
         "providesFreeBuilding": "~Poland5",
-        "requiredTech": "Radio",
         "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Modern Policy 3",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland5",
-        "providesFreeBuilding": "~Poland5",
-        "requiredTech": "Replaceable Parts",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Modern Policy 4",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland5",
-        "providesFreeBuilding": "~Poland5",
-        "requiredTech": "Flight",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Modern Policy 5",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland5",
-        "providesFreeBuilding": "~Poland5",
-        "requiredTech": "Railroad",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Pharmaceuticals]",
-        	"Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy",
+            "Obsolete with [Pharmaceuticals]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
     },
     {
         "name": "~Poland6",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
-    },
-	{
-        "name": "Free Atomic Policy 1",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland6",
-        "providesFreeBuilding": "~Poland6",
-        "requiredTech": "Pharmaceuticals",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
-        	"Will not be displayed in Civilopedia"],
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
     },
     {
-        "name": "Free Atomic Policy 2",
+        "name": "Free Atomic Policy",
         "uniqueTo": "Poland",
         "cannotBeBuiltWith": "~Poland6",
         "providesFreeBuilding": "~Poland6",
-        "requiredTech": "Atomic Theory",
         "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Atomic Policy 3",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland6",
-        "providesFreeBuilding": "~Poland6",
-        "requiredTech": "Radar",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
-        	"Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Atomic Policy 4",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland6",
-        "providesFreeBuilding": "~Poland6",
-        "requiredTech": "Combined Arms",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Obsolete with [Telecommunications]",
-        	"Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy",
+            "Obsolete with [Telecommunications]","Unlocked with [Atomic era]","Will not be displayed in Civilopedia"]
     },
     {
         "name": "~Poland7",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
     },
     {
-        "name": "Free Information Policy 1",
+        "name": "Free Information Policy",
         "uniqueTo": "Poland",
         "cannotBeBuiltWith": "~Poland7",
         "providesFreeBuilding": "~Poland7",
-        "requiredTech": "Telecommunications",
         "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy",
+            "Unlocked with [Information era]","Will not be displayed in Civilopedia"]
     },
-    {
-        "name": "Free Information Policy 2",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland7",
-        "providesFreeBuilding": "~Poland7",
-        "requiredTech": "Mobile Tactics",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Information Policy 3",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland7",
-        "providesFreeBuilding": "~Poland7",
-        "requiredTech": "Advanced Ballistics",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
-    },
-    {
-        "name": "Free Information Policy 4",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland7",
-        "providesFreeBuilding": "~Poland7",
-        "requiredTech": "Satellites",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
-    },  
-    {
-        "name": "Free Information Policy 5",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland7",
-        "providesFreeBuilding": "~Poland7",
-        "requiredTech": "Robotics",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
-    }, 
-    {
-        "name": "Free Information Policy 6",
-        "uniqueTo": "Poland",
-        "cannotBeBuiltWith": "~Poland7",
-        "providesFreeBuilding": "~Poland7",
-        "requiredTech": "Lasers",
-        "cost": -1,
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Will not be displayed in Civilopedia"],
-    }, 
     {
         "name": "~CS",
         "isNationalWonder": "true",
@@ -594,10 +323,9 @@
         "cost": 75,
         "food": 2,
         "production": 1,
-        "uniques": ["[+2 Food] from [Lakes] tiles in this city","Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "percentStatBonus": {"food": 15},
+        "uniques": ["+[15]% [Food] [in this city]","[+2 Food] from [Lakes] tiles in this city","Must be next to [Fresh water]"],
         "requiredTech": "The Wheel"     
     },
     {
@@ -606,7 +334,7 @@
         "isWonder": true,
         "cost": 185,
         "greatPersonPoints": {"production": 1},
-        "uniques": ["+[10]% growth in all cities","+[15]% Production when constructing [Ranged] units"],
+        "uniques": ["+[10]% growth in all cities","+[15]% Production when constructing [Ranged] units [in all cities]"],
         "requiredTech": "Archery",
         "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
     },
@@ -734,7 +462,7 @@
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["+[15]% production when building [mounted units] in this city"],
+        "uniques": ["+[15]% Production when constructing [Mounted] units [in this city]"],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -747,7 +475,7 @@
         "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
         "uniques": ["[+1 Production, +1 Gold] from [Pasture] tiles in this city",
-            "New [Mounted] units start with [15] Experience in this city","+[15]% production when building [mounted units] in this city"],
+            "New [Mounted] units start with [15] Experience in this city","+[15]% Production when constructing [Mounted] units [in this city]"],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -854,7 +582,7 @@
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 25,
-        "percentStatBonus": {"gold": 25},
+        "uniques": ["+[25]% [Gold] [in this city]"],
         "requiredTech": "Currency"
     },
     {
@@ -864,9 +592,9 @@
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 25,
-        "percentStatBonus": {"gold": 25},
         "uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-            "[+2 Gold] from [Oil] tiles in this city", "[+2 Gold] from [Oasis] tiles in this city"],
+            "[+2 Gold] from [Oil] tiles in this city","[+2 Gold] from [Oasis] tiles in this city",
+            "+[25]% [Gold] [in this city]"],
         "requiredTech": "Currency"
     },
     {
@@ -967,8 +695,8 @@
         "science": 3,
         "culture": 1,
         "isNationalWonder": true,
-        "percentStatBonus": {"science": 50},
-        "uniques": ["Cost increases by [30] per owned city","Requires a [Library] in all cities"],
+        "uniques": ["Cost increases by [30] per owned city","+[50]% [Science] [in this city]",
+            "Requires a [Library] in all cities"],
         "requiredTech": "Philosophy"
     },
     {
@@ -1009,8 +737,8 @@
         "production": 2,
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
-        "percentStatBonus": {"production": 10},
-        "uniques": ["[+3 Production] from [Land Trade Route (Production)] tiles in this city","[+2 Production] from [Sea Trade Route (Production)] tiles in this city"],
+        "uniques": ["[+3 Production] from [Land Trade Route (Production)] tiles in this city",
+            "[+2 Production] from [Sea Trade Route (Production)] tiles in this city","+[10]% [Production] [in this city]"],
         "requiredTech": "Metal Casting"
     },
     {
@@ -1033,7 +761,8 @@
         "requiredNearbyImprovedResources": ["Iron"],
         "resourceBonusStats": {"production": 1},
         "requiredTech": "Metal Casting",
-        "uniques": ["+[15]% production when building [land units] in this city", "+[15]% production when building [Spaceship part] in this city"]
+        "uniques": ["+[15]% Production when constructing [Land] units [in this city]",
+            "+[15]% Production when constructing [Spaceship part] [in this city]"]
     },
     {
         "name": "Harbor",
@@ -1048,9 +777,9 @@
         "name": "University",
         "maintenance": 2,
         "hurryCostModifier": 15,
-        "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
-        "uniques": ["[+2 Science] from [Jungle] tiles in this city","Requires a [Library] in this city"],
+        "uniques": ["[+2 Science] from [Jungle] tiles in this city","+[33]% [Science] [in this city]",
+            "Requires a [Library] in this city"],
         "requiredTech": "Education"
     },
     {
@@ -1062,7 +791,8 @@
         "hurryCostModifier": 15,
         "percentStatBonus": {"science": 33},
         "specialistSlots": {"Scientist": 2},
-        "uniques": ["[+2 Science] from [Jungle] tiles in this city","Requires a [Library] in this city"],
+        "uniques": ["[+2 Science] from [Jungle] tiles in this city","+[33]% [Science] [in this city]",
+            "Requires a [Library] in this city"],
         "requiredTech": "Education"
     },
     {
@@ -1109,8 +839,8 @@
         "greatPersonPoints": {"culture": 1},
         "isWonder": true,
         "providesFreeBuilding": "Castle",
-        "percentStatBonus": {"culture": 20},
-        "uniques": ["All newly-trained [relevant] units in this city receive the [Drill I] promotion"],
+        "uniques": ["All newly-trained [relevant] units in this city receive the [Drill I] promotion",
+            "+[20]% [Culture] [in this city]"],
         "requiredTech": "Chivalry",
         "quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.'  - Joseph Addison"
     },
@@ -1146,8 +876,7 @@
         "name": "Observatory",
         "maintenance": 0,
         "hurryCostModifier": 15,
-        "percentStatBonus": {"science": 50},
-        "uniques": ["Must be next to [Mountain]"],
+        "uniques": ["+[50]% [Science] [in this city]","Must be next to [Mountain]"],
         "requiredTech": "Astronomy"
     },
     {
@@ -1177,7 +906,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"culture": 2},
-        "uniques": ["Culture in all cities increased by 25%"],
+        "uniques": ["+[25]% [Culture] [in all cities]"],
         "requiredTech": "Acoustics",
         "quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
     },
@@ -1186,8 +915,7 @@
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
-        "percentStatBonus": {"gold": 25},
-        "uniques": ["Requires a [Market] in this city"],
+        "uniques": ["+[25]% [Gold] [in this city]","Requires a [Market] in this city"],
         "requiredTech": "Banking"
     },
     {
@@ -1198,8 +926,7 @@
         "specialistSlots": {"Merchant": 1},
         "happiness": 2,
         "hurryCostModifier": 15,
-        "percentStatBonus": {"gold": 25},
-        "uniques": ["Requires a [Market] in this city"],
+        "uniques": ["+[25]% [Gold] [in this city]","Requires a [Market] in this city"],
         "requiredTech": "Banking"
     },
     {
@@ -1209,9 +936,8 @@
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
-        "percentStatBonus": {"gold": 25},
         "uniques": ["+5% Production for every Trade Route with a City-State in the empire",
-            "Requires a [Market] in this city"],
+            "+[25]% [Gold] [in this city]","Requires a [Market] in this city"],
         "requiredTech": "Banking"
     },
     {
@@ -1240,7 +966,6 @@
         "requiredTech": "Printing Press",
         "quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
     },
-
     {
         "name": "Himeji Castle",
         "culture": 3,
@@ -1263,10 +988,10 @@
     {
         "name": "Hermitage",
         "cost": 125,
-        "percentStatBonus": {"culture": 50},
         "culture": 5,
         "isNationalWonder": true,
-        "uniques": ["Cost increases by [30] per owned city","Requires a [Opera House] in all cities"],
+        "uniques": ["+[50]% [Culture] [in this city]","Cost increases by [30] per owned city",
+            "Requires a [Opera House] in all cities"],
         "requiredTech": "Archaeology"
     }, 
     {
@@ -1283,7 +1008,7 @@
         "hurryCostModifier": 25,
         "maintenance": 3,
 	    "uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
-		"Must be next to [Coast]","+[15]% production when building [water units] in this city",
+		"+[15]% Production when constructing [Water] units [in this city]","Must be next to [Coast]",
         "Requires a [Harbor] in this city"],
         "requiredTech": "Navigation"
     },
@@ -1307,12 +1032,12 @@
         "quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.'  - James Russell Lowell"
     }, 
     {
-        "name": "Windmill", //adjusted
+        "name": "Windmill",
         "production": 2,
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "uniques": ["+[10]% production when building [Buildings] in this city","Must not be on [Hill]"],
+        "uniques": ["+[10]% Production when constructing [Buildings] [in this city]","Must not be on [Hill]"],
         "requiredTech": "Economics"
     },
     {
@@ -1324,8 +1049,7 @@
         "specialistSlots": {"Engineer": 1},
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "percentStatBonus": {"production": 5},
-        "uniques": ["+[25]% great person generation in this city","May be built in all cities"],
+        "uniques": ["+[5]% [Production] [in this city]","+[25]% great person generation in this city","May be built in all cities"],
         "requiredTech": "Economics"     
     },
     {
@@ -1363,11 +1087,10 @@
     {
         "name": "Factory",
         "production": 4,
-        "percentStatBonus": {"production": 10},
         "specialistSlots": {"Engineer": 2},
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "uniques": ["Requires a [Workshop] in this city"],
+        "uniques": ["+[10]% [Production] [in this city]","Requires a [Workshop] in this city"],
         "requiredResource": "Coal",
         "requiredTech": "Industrialization"
     },
@@ -1408,10 +1131,9 @@
     {
         "name": "Stock Exchange",
         "gold": 3,
-        "percentStatBonus": {"gold": 25},
         "specialistSlots": {"Merchant": 2},
         "hurryCostModifier": 15,
-        "uniques": ["Requires a [Bank] in this city"],
+        "uniques": ["+[25]% [Gold] [in this city]","Requires a [Bank] in this city"],
         "requiredTech": "Electricity"
     },
     {
@@ -1439,8 +1161,7 @@
     {
         "name": "Broadcast Tower",
         "culture": 3,
-        "percentStatBonus": {"culture": 33},
-        "uniques": ["Requires a [Museum] in this city"],
+        "uniques": ["+[33]% [Culture] [in this city]","Requires a [Museum] in this city"],
         "maintenance": 3,
         "requiredTech": "Radio"
     },    
@@ -1448,8 +1169,8 @@
         "name": "Eiffel Tower", //adjusted
         "culture": 1,
         "happiness": 5,
-        "percentStatBonus": {"culture": 100},
         "greatPersonPoints": {"gold": 2},
+        "uniques": ["+[100]% [Culture] [in this city]"],
         "isWonder": true,
         "requiredTech": "Radio",
         "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
@@ -1479,7 +1200,7 @@
         "percentStatBonus": {"science": 50},
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
-        "uniques": ["Requires a [Public School] in this city"],
+        "uniques": ["+[50]% [Science] [in this city]","Requires a [Public School] in this city"],
         "requiredTech": "Plastics"
     },
     {
@@ -1492,7 +1213,7 @@
     {
         "name": "Hotel", //modded
         "cost": 300,
-        "percentStatBonus": {"culture": 30},
+        "uniques": ["+[30]% [Culture] [in this city]"],
         "maintenance": 0,
         "requiredTech": "Refrigeration"
     },
@@ -1510,7 +1231,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"science": 1},    
-        "uniques": ["+[50]% Production when constructing [Armor] units","Free Social Policy",
+        "uniques": ["+[50]% Production when constructing [Armor] units [in all cities]","Free Social Policy",
             "Requires [Order]"],
         "requiredTech": "Railroad",
         "quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.'   –- The Prophet Muhammed"
@@ -1546,10 +1267,9 @@
     {
         "name": "Nuclear Plant",
         "production": 5,        
-        "percentStatBonus": {"production": 15},
         "maintenance": 3,
         "cannotBeBuiltWith": "Solar Plant",
-        "uniques": ["Requires a [Factory] in this city"],
+        "uniques": ["+[15]% [Production] [in this city]","Requires a [Factory] in this city"],
         "requiredResource": "Uranium",
         "requiredTech": "Nuclear Fission"
     },
@@ -1562,18 +1282,16 @@
     {
         "name": "Solar Plant",
         "production": 5,        
-        "percentStatBonus": {"production": 15},
         "maintenance": 3,
         "cannotBeBuiltWith": "Nuclear Plant",
         "requiredTech": "Ecology",
-        "uniques": ["Must be next to [Desert]","Requires a [Factory] in this city"]
+        "uniques": ["+[15]% [Production] [in this city]","Must be next to [Desert]","Requires a [Factory] in this city"]
     },
     {
         "name": "Sydney Opera House",
         "isWonder": true,
         "greatPersonPoints": {"culture": 2},
-        "percentStatBonus": {"culture": 50},
-        "uniques": ["Free Social Policy","Must be next to [Coast]"],
+        "uniques": ["+[50]% [Culture] [in this city]","Free Social Policy","Must be next to [Coast]"],
         "requiredTech": "Ecology",
         "quote": "'Those who lose dreaming are lost.'  - Australian Aboriginal saying"
     },
@@ -1594,7 +1312,7 @@
         "production": 3,
         "requiredResource": "Aluminum",
         "cost": 360,
-        "uniques": ["+[50]% production when building [Spaceship part] in this city",
+        "uniques": ["+[50]% Production when constructing [Spaceship Part] [in this city]",
             "Requires a [Factory] in this city"],
         "requiredTech": "Robotics"
     },
@@ -1614,8 +1332,7 @@
     {
         "name": "National Visitor's Center", //modded
         "isNationalWonder": true,
-        "percentStatBonus": {"culture": 100},
-        "uniques": ["Requires a [Hotel] in all cities"],
+        "uniques": ["+[100]% [Culture] [in this city]","Requires a [Hotel] in all cities"],
         "requiredTech": "Telecommunications"
     },
     {
@@ -1636,7 +1353,7 @@
         "greatPersonPoints": {"science": 1},        
         "providesFreeBuilding":  "Spaceship Factory",
         "uniques": ["[2] free [Great Scientist] units appear",
-            "+[25]% production when building [Spaceship part] in this city"],
+            "+[25]% Production when constructing [Spaceship part] [in this city]"],
         "requiredTech": "Satellites",
         "quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.'  - Anatole France"
     },
