@@ -1013,6 +1013,15 @@
         "requiredTech": "Navigation"
     },
     {
+        "name": "Uffizi", //modded
+        "culture": 2,
+        "specialistSlots": {"Artist": 3},
+        "isWonder": true,
+        "uniques": ["Free [Great Artist] appears","Requires [Aesthetics]"],
+        "requiredTech": "Architecture",
+        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
+    },
+    {
         "name": "Taj Mahal",
         "culture": 1,
         "happiness": 4,
@@ -1212,6 +1221,7 @@
     },
     {
         "name": "Hotel", //modded
+        "culture": 1,
         "cost": 300,
         "uniques": ["+[30]% [Culture] [in this city]"],
         "maintenance": 0,

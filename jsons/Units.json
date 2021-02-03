@@ -4,13 +4,6 @@
 
 	/* Ancient Era */
 	{
-		"name": "Missionary", //modded
-		"unitType": "Civilian",
-		"movement": 4,
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence","Unbuildable"],
-		"cost": 200
-	},
-	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -37,17 +30,25 @@
 			"Can construct [Customs house]","Double movement in coast"]
 	},
 	{
-		"name": "Caravan",
+		"name": "Missionary", //modded
+		"unitType": "Civilian",
+		"movement": 4,
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence",
+			"Limited Visibility","Requires [Mandate Of Heaven]"],
+		"cost": 200
+	},
+	{
+		"name": "Caravan", //modded
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 75,
 		"uniques": ["Can construct [Land Trade Route (Food)]","Can construct [Land Trade Route (Production)]",
-			"Can construct [Land Trade Route (Gold)]","Trade Routes on Coastal cities provide +3 yield"], //Will be adjusted once cargo ship is available
+			"Can construct [Land Trade Route (Gold)]"],
 		"requiredResource": "Trade Route",
 		"requiredTech": "Animal Husbandry"
 	},
 	{
-		"name": "Cargo Ship",
+		"name": "Cargo Ship", //modded
 		"unitType": "WaterCivilian",
 		"movement": 4,
 		"cost": 100,
