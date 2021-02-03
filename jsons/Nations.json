@@ -411,7 +411,7 @@
 		"outerColor": [ 38, 98, 255],
 		"innerColor": [239,236,148],
 		"uniqueName": "Ancien Régime",
-		"uniques": ["+2 Culture per turn from cities before discovering Steam Power"],
+		"uniques": ["[+2 Culture] per turn from cities before [Steam Power]"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -822,7 +822,8 @@
 		"outerColor": [241,3,0],
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
-		"uniques": ["Receive a free Social Policy when you advance to the next era"],
+		"uniqueText": "Receive a free Social Policy when you advance to the next era
+		",
 		"cities": ["Warsaw","Kraków","Łódź","Wroclaw","Poznań","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
 			"Katowice","Białystok","Gdynia","Świdnica","Częstochowa","Radom","Toruń","Kielce","Gliwice","Klaipėda",
 			"Bytom","Olsztyn","Rzeszów","Ruda Śląska","Bielsko-Biala","Rybnik","Płock","Elbląg","Gorzów Wielkopolski","Opole",
@@ -973,8 +974,9 @@
 		"innerColor": [78,244,	234],
 		"uniqueName": "Great Expanse",
 		"uniqueText": " Increased rate of border expansion. Units receive a combat bonus when fighting in their own territory
-		"
-		"uniques": ["Cost of acquiring new tiles reduced by 25%", "Increased rate of border expansion", "+15% combat strength for units fighting in friendly territory"],
+		",
+		"uniques": ["Cost of acquiring new tiles reduced by 25%", "Increased rate of border expansion",
+			"+[15]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -1000,8 +1002,8 @@
 		"uniqueName": "River Warlord",
 		"uniqueText": " Receive triple Gold from Barbarian encampments and pillaging Cities. Land units gain the War Canoes and Amphibious promotions
 		",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","[non-air] units gain the [Amphibious] promotion",
-			"[non-air] units gain the [War Canoes] promotion"],
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","[Land] units gain the [Amphibious] promotion",
+			"[Land] units gain the [War Canoes] promotion"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
 			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"]
@@ -1078,7 +1080,7 @@
 		"uniqueName": "Serenissima",
 		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics
 		"
-		"uniques": ["Cannot build Settlers","+[100]% [Gold] from every [Palace]","Receive free [Merchant of Venice] when you discover [Optics]",
+		"uniques": ["+[100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]",
 			"Double quantity of [Trade Route] produced"],
 		"cities": ["Venice","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
@@ -1106,7 +1108,7 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["-[50]% [Melee] unit maintenance costs","[Military] units gain 50% more Experience from combat"],
+		"uniques": ["-[50]% [Melee] unit maintenance costs","[Military] units gain [25]% more Experience from combat"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",
