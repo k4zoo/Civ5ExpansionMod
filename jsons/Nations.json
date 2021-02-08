@@ -25,7 +25,7 @@
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["+1 Sight for all land military units","-50% cost when purchasing tiles"],
+		"uniques": ["+1 Sight for all land military units","-[50]% Gold cost of acquiring tiles [in all cities]"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -55,8 +55,8 @@
 		"uniqueText": " +1 Gold from every Trade Route, Double quantity of Oil produced
 		",
 		"uniques": ["[+1 Gold] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
-			"[+1 Gold] from every [Land Trade Route (Gold)]",/*"[+1 Gold] from every [Sea Trade Route (Food)]",
-			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]",*/
+			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
+			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]",
 			"Double quantity of [Oil] produced"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
@@ -208,8 +208,7 @@
 		"outerColor": [88,145,228],
 		"innerColor": [80,23,135],
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniqueText": " Receive a free policy when you reach Civil Service
-		",
+		"uniques": ["[+1 Culture, +1 Gold, +1 Production, +1 Science] [in capital]"],
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson","Sardica",
 			"Ani","Dyrrachium","Edessa","Chalcedon","Naissus","Bari","Iconium","Prilep","Samosata","Kars",
 			"Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Vodena",
@@ -411,7 +410,7 @@
 		"outerColor": [ 38, 98, 255],
 		"innerColor": [239,236,148],
 		"uniqueName": "Ancien Régime",
-		"uniques": ["+2 Culture per turn from cities before discovering Steam Power"],
+		"uniques": ["[+2 Culture] per turn from cities before [Steam Power]"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -638,8 +637,8 @@
 		"neutralHello": "Hello.",
 		"hateHello": "Oh, it's you",
 		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
-		"outerColor": [20,25,173],
-		"innerColor": [187,33,51],
+		"outerColor": [26,32,96],
+		"innerColor": [255,0,0],
 		"uniqueName": "Scholars of the Jade Hall",
 		"uniques": ["[+2 Science] from every specialist","[+2 Science] from every [Great Improvement]",
 			"Receive a tech boost when scientific buildings/wonders are built in capital"],
@@ -970,11 +969,11 @@
 		"hateHello": "?",
 		"tradeRequest": "Would you listen to my proposal?",
 		"outerColor": [65,54,42],
-		"innerColor": [78,244,	234],
+		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
-		"uniqueText": " Increased rate of border expansion. Units receive a combat bonus when fighting in their own territory
+		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land
 		"
-		"uniques": ["Cost of acquiring new tiles reduced by 25%", "Increased rate of border expansion", "+15% combat strength for units fighting in friendly territory"],
+		"uniques": ["-[75]% Culture cost of acquiring tiles [in this city]","+[15]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
