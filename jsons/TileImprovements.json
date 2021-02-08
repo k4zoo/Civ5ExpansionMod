@@ -238,7 +238,7 @@
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] once [Flight] is discovered",
-			"Must be next to [Coast]"],
+			"Can only be built on Coastal tiles"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
