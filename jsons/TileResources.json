@@ -42,7 +42,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
 		"food": 1,
 		"improvement": "Farm",
-		"improvementStats": {"food": 1},
+		"improvementStats": {"food": 0},
 		"building": "Granary"
 	},
 	{
@@ -60,7 +60,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1},
+		"improvementStats": {"food": 0},
 		"building": "Lighthouse"
 	},
 	
@@ -240,7 +240,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 0}
 	},
 	{
 		"name": "Pearls",
@@ -248,7 +248,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 0}
 	}
 	{
 		"name": "Bison", //modded
