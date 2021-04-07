@@ -2,7 +2,7 @@
 	{
 		"name": "Tradition",
 		"era": "Ancient era",
-		"uniques": ["[+3 Culture] [in capital]","-[25]% Culture cost of acquiring tiles [in all cities]","Unlocks building the Hanging Gardens"],
+		"uniques": ["[+3 Culture] in capital","-[25]% Culture cost of acquiring tiles [in all cities]","Unlocks building the Hanging Gardens"],
 		"policies": [
 			{
 				"name": "Aristocracy",
@@ -38,7 +38,7 @@
 			},
 			{
 				"name": "Tradition Complete",
-				"uniques": ["+[15]% growth in all cities","[+2 Food] [in all cities]"]
+				"uniques": ["+[15]% growth [in all cities]","[+2 Food] [in all cities]"]
 			}
 		]
 	},
@@ -94,7 +94,8 @@
 		"policies": [
 			{
 				"name": "Warrior Code",
-				"uniques":["+[15]% Production when constructing [Melee] units","[Great General] is earned [50]% faster","Free [Great General] appears"],
+				"uniques":["+[15]% Production when constructing [Melee] units [in all cities]",
+					"[Great General] is earned [50]% faster","Free [Great General] appears"],
 				"row": 1,
 				"column": 2
 			},
@@ -532,7 +533,8 @@
 			},
 			{
 				"name": "Total War",
-				"uniques": ["+[15]% Production when constructing [Military] units [in all cities]","New [Military] units start with [15] Experience"],
+				"uniques": ["+[15]% Production when constructing [Military] units [in all cities]",
+					"New [Military] units start with [15] Experience"],
 				"requires": ["Police State","Fascism"],
 				"row": 3,
 				"column": 4
