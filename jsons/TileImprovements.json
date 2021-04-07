@@ -11,12 +11,6 @@
 		"shortcutKey": "F"
 	},
 	{
-		"name": "Granary",
-		"terrainsCanBeBuiltOn": ["Grassland"],
-		"food": 15,
-		"techRequired": "Agriculture"
-	}
-	{
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
