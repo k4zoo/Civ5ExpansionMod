@@ -6,7 +6,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] on [fresh water] tiles once [Civil Service] is discovered",
+			"[+1 Food] on [Fresh water] tiles once [Civil Service] is discovered",
 			"[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
 		"shortcutKey": "F"
 	},
@@ -87,6 +87,7 @@
 	{
 		"name": "Archaeological Dig",
 		"resourceTerrainAllow": ["Grassland","Plains","Forest","Jungle","Desert"],
+		"uniques": ["Can be built outside your borders"]
 	},
 	{
 		"name": "Land Trade Route (Food)",
@@ -235,7 +236,6 @@
 	{
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Hill"],
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": ["[+1 Culture] for each adjacent [Moai]","[+1 Gold] once [Flight] is discovered",
@@ -285,7 +285,6 @@
 	{
 		"name": "Feitoria",
 		"uniqueTo": "Portugal",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
 		"turnsToBuild": 7,
 		"gold": 3,
 		"happiness": 2,
