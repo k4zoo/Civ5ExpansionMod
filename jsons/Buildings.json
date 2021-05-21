@@ -206,7 +206,7 @@
         "name": "Library",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["[+1 Science] per [2] population [in this city]"],
+        "uniques": ["[+1 Science] per [2] population in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -215,7 +215,7 @@
         "uniqueTo": "China",
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["[+1 Science] per [2] population [in this city]"],
+        "uniques": ["[+1 Science] per [2] population in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -226,7 +226,7 @@
         "specialistSlots": {"Artist": 1},
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience in this city"],
+        "uniques": ["[+1 Science] per [2] population in this city","New [Military] units start with [10] Experience in this city"],
         "requiredTech": "Writing"
     },
     {
@@ -1036,7 +1036,7 @@
         "specialistSlots": {"Scientist": 1},
         "maintenance": 3,
         "hurryCostModifier": 0,
-        "uniques": ["[+1 Science] per [2] population [in this city]","Requires a [University] in this city"],
+        "uniques": ["[+1 Science] per [2] population in this city","Requires a [University] in this city"],
         "requiredTech": "Scientific Theory"
     },
     {
