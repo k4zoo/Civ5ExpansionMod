@@ -11,7 +11,7 @@
         "name": "~limit",
 	    "gold": 2,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+        "uniques": ["Will not be displayed in Civilopedia","Unbuildable","Unsellable"]
     },
     {
         "name": "Cloves", // Indonesian "luxury"
@@ -21,7 +21,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true, 
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"]
     },
     {
         "name": "Nutmeg", // Indonesian "luxury"
@@ -31,7 +31,7 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"]
     },
     {
         "name": "Pepper", // Indonesian "luxury"
@@ -41,14 +41,14 @@
         "requiredTech": "Astronomy",
         "isNationalWonder": true,
         "cost": -1,
-        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
+        "uniques": ["Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"]
     },
     {
         "name": "~Dutch",
         "isNationalWonder": true,
         "uniqueTo": "The Netherlands",
         "cost": -1,
-        "uniques": ["Provides 1 extra copy of each improved luxury resource near this City","Will not be displayed in Civilopedia"],
+        "uniques": ["Provides 1 extra copy of each improved luxury resource near this City","Will not be displayed in Civilopedia"]
     },
     {
         "name": "Free Annexed Technology",
@@ -56,7 +56,7 @@
         "cost": -1,
         "replacementTextForUniques": " ",
         "uniques": ["Can only be built in annexed cities","Free Technology",
-        	"Will not be displayed in Civilopedia","Unsellable"],
+        	"Will not be displayed in Civilopedia","Unsellable"]
     },
     {
         "name": "Maya Great People Bonus",
@@ -73,7 +73,7 @@
         "uniqueTo": "Poland",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable",
             "Obsolete with [Theology]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
     },
     {
@@ -81,7 +81,7 @@
         "uniqueTo": "Poland",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable",
             "Obsolete with [Astronomy]","Unlocked with [Medieval era]","Will not be displayed in Civilopedia"]
     },
     {
@@ -89,7 +89,7 @@
         "uniqueTo": "Poland",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable",
             "Obsolete with [Archaeology]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
     },
     {
@@ -97,7 +97,7 @@
         "uniqueTo": "Poland",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable",
             "Obsolete with [Refrigeration]","Unlocked with [Industrial era]","Will not be displayed in Civilopedia"]
     },
     {
@@ -105,7 +105,7 @@
         "uniqueTo": "Poland",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable",
             "Obsolete with [Pharmaceuticals]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
     },
     {
@@ -113,7 +113,7 @@
         "uniqueTo": "Poland",
         "cost": -1,
         "replacementTextForUniques": " ",
-        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable",
             "Obsolete with [Telecommunications]","Unlocked with [Atomic era]","Will not be displayed in Civilopedia"]
     },
     {
@@ -321,7 +321,7 @@
         "maintenance": 1,
         "uniques": ["New [Military] units start with [15] Experience in this city","All newly-trained [Melee] units in this city receive the [Buffalo Horns I] promotion"],
         "requiredTech": "Bronze Working"
-    }
+    },
     {
         "name": "Colossus",
         "culture": 1,
@@ -397,7 +397,7 @@
         "hurryCostModifier": 25,
         "uniques": ["[+2 Gold] from [Land Trade Route (Gold)] in this city"],
         "requiredTech": "Horseback Riding"
-    }
+    },
     {
         "name": "Stable", 
         "maintenance": 1,
@@ -421,7 +421,7 @@
             "New [Mounted] units start with [15] Experience in this city",
         	"[+1 Production, +1 Gold] from [Cattle] tiles in this city",
         	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
-        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",],
+        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city"],
         "requiredTech": "Horseback Riding"
     },
     {
